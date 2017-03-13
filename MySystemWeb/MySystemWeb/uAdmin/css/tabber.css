@@ -1,0 +1,21 @@
+.tabberlive .tabbertabhide{display:none}
+.tabberlive {position: relative; top: -35px; z-index: 10}
+.tabberlive .tabbertab {clear: both; overflow:hidden;}
+
+/*ul.tabbernav = the tab navigation list*/
+ul.tabbernav { padding: 0; overflow:hidden}
+ul.tabbernav li {	 list-style: none;  font-size:12px; float: left;	background: url(../images/layout/tab_inactive_left.png) no-repeat; position:relative}
+ul.tabbernav li:hover{ color:#fff;}
+
+/*active tab background*/
+ul.tabbernav li.tabberactive {	background: url(../images/layout/tab_active_left.png) no-repeat;}
+ul.tabbernav li a {	display: block;	margin: 0 5px; 	padding: 10px 25px;	text-decoration: none;	color:#9FD9F6;	border-bottom: 0;	background: url(../images/layout/tab_inactive_right.png) no-repeat right top; 	}
+ul.tabbernav li a:hover {	color: #fff;	}
+ul.tabbernav li i{ font-size:12px; color:#9FD9F6; position:absolute; right:8px; top:0px; font-style:normal; cursor:pointer;}
+ul.tabbernav li i:hover{ color:#fff;}
+
+/*active tab background*/
+ul.tabbernav li.tabberactive a {	color: #333;	background: url(../images/layout/tab_active_right.png) no-repeat right top; 	}
+
+/* If desired, hide the heading since a heading is provided by the tab */
+.tabberlive .tabbertab h2 { display:none;}

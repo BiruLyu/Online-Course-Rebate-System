@@ -1,0 +1,22 @@
+﻿.pages { color: #999; }
+.pages a, .pages .currentbtn 
+{ text-decoration:none;
+    float: left; 
+    padding: 0 5px;
+     border: 1px solid #ddd;
+     background: #ffff;
+     margin:0 2px; 
+     font-size:11px; 
+     color:#000;}
+.pages a:hover
+ { background-color: #E61636; 
+    color:#fff;
+    border:1px solid #E61636; 
+    text-decoration:none;}
+.pages .currentbtn 
+{ font-weight: bold;
+     color: #fff; 
+     background: #E61636; 
+     border:1px solid #E61636;
+   
+     }

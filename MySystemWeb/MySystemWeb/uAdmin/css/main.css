@@ -1,0 +1,752 @@
+/* CSS Document */
+/* Always show a scrollbar for short pages - stops the jump when the scrollbar appears. non-IE browsers *//*DEFAULT BODY STYLES + BG FOR MAIN AND LOGIN SCREENS*/
+body { font-size:12px; color:#1b110f; padding:0; position:relative; margin:0 }
+body#b_main { background:url(../images/layout/bg_left.gif) repeat-y #fff }
+body#b_login { background:#1a100e }
+h1 { }
+h2 { }
+h3 { font-size:20px; padding:5px 0 15px }
+h4 { font-size:15px; padding:5px 0 5px }
+h5 { font-size:13px; padding:5px 0 15px; text-transform:uppercase; color:#6a5644 }
+p { padding-bottom:7px }
+.clear { clear:both }
+strong { font-weight:700 }
+a { color:#00a0e9 }
+a:hover { text-decoration:none }
+em { font-style:italic }
+.clearfix:after { content:""; display:block; visibility:hidden; height:0; font-size:0; clear:both }
+.fr{ float:right}
+/*UL*/
+ul.points { list-style:none; padding:15px 0; position:relative }
+ul.points li { padding:3px 0 3px 20px; background:url(../img/icons/arrow_000_small.png) no-repeat left center }
+/*MAIN CONTAINERS*/
+
+div#header { height:112px; background:url(../images/layout/bg_top2.gif) repeat-x scroll center top #00a0e9; position:relative; width:100% }
+div#menu_main {float:left; width:200px; }
+/*SUB CONTAINERS*/
+.container2 { width:370px; margin:15px 0 10px 30px; float:left; padding:15px 0 0 }
+.container1 { margin:15px 0 0 30px; padding: 0; clear:both }
+.separator { border-top:1px solid #CCC }
+/*acts like a hr just incase you need one - adds a stroke to the top of div*/
+/*HEADER*/
+div#logo { width:100%; height:112px; display:block; position:absolute; top:0; left:0 }
+div#logo h1 { height:40px; position:absolute; top:41px; 
+left:281px
+}
+div#logo h1 a { height:40px;/*background:url(../images/layout/logo_top.png) no-repeat;text-indent:-9999px;width:310px;*/ display:block; font-family:Microsoft Yahei; color:#fff; text-decoration:none; font-size:30px; text-shadow: 2px 2px 0 #008cd6; letter-spacing:2px; }
+div#logo h1 a strong { font-family:"AdelleBasicBold", "Georgia", Times, serif; font-size:35px; letter-spacing:1px; }
+div#logo h4 { color:#d3edfb; position:absolute; top:65px; left:230px; text-shadow: 1px 1px 3px rgba(0,0,0,.5); }
+div#logo ul#welcome { list-style:none; margin-top:10px; color:#fff; font-size:12px; overflow:hidden; clear:both; padding-right:30px }
+div#logo ul#welcome li { float:right; margin:0 10px 0 0; background:#0081cc; padding:0 10px }
+div#logo ul#welcome li#last { clear:both; padding:8px 0 0; color:#7ecef4; background:none }
+div#logo ul#welcome li strong { font-weight:400; color:#fff }
+div#logo ul#welcome li a { text-decoration:none; padding:1px 0; color:#9FD9F6 }
+div#logo ul#welcome li a:hover { color:#fff }
+/*DEFAULT HEADER LOGO*/
+#b_main div#logo { background:url(../images/layout/bg_top1.jpg) no-repeat }
+#b_login div#logo { background:url(../img/layout/bg_top1_login.jpg) no-repeat }
+/*MENU*/
+.menu_main_section { border-top:1px solid #0081cc }
+.first { border:none }
+.menu_main_section h4 { color:#fff; padding:10px 0 10px 30px; border-top:1px solid #00a0e9; cursor:pointer; font-weight: bold; }
+.menu_main_section ul li a { color:#9fd9f6; padding:6px 20px; text-align:right; display:block; text-decoration:none; font-size:12px }
+.menu_main_section ul li a:hover { background:#00a3e9; color:#fff }
+.menu_main_section ul li.selected a, .menu_main_section ul li.selected a:hover { background:#FFF; color:#1b110f }
+/*MENU SECTION HEADERS*/
+.menu_main_h_support { background:url(../images/icons/lifebuoy.png) no-repeat 10px center #0068b7 }
+.menu_main_h_config { background:url(../images/icons/broom.png) no-repeat 10px center #0068b7 }
+.menu_main_h_files { background:url(../images/icons/box.png) no-repeat 10px center #0068b7 }
+/*DASHBOARD*/
+.welcome_list { padding:20px 30px; border:1px solid #b8c6d2; background:url(../images/layout/highlight_blue.gif) repeat-x #dae6f1 }
+.welcome_list img { margin-right:20px; position:relative; top:3px }
+/*FORMS*/
+.broom_form { }
+.broom_form fieldset { border:none; outline:none; background:url(../images/icons/cross_circle.png) no-repeat -9999px -9999px }
+/*give the fieldset the image background so that it loads ready for jQuery execution*/
+.broom_form label { display:block; position:relative; padding:10px 0; clear:both; float:left; width:100%; height:45px }
+.broom_form label.ta { height:176px }
+.broom_form fieldset input { border:1px solid #CCC; height:17px; padding:6px 5px 4px; position:absolute; top:30px; left:0; outline:none; width:100%; background:#f7f7f7 }
+.broom_form fieldset select { border:1px solid #CCC; height:27px; padding:5px; position:absolute; top:30px; left:0; outline:none; width:100%; background:#f7f7f7 }
+.broom_form fieldset textarea { height:143px; display:block; border:1px solid #CCC; overflow:auto; padding:5px; outline:none; position:absolute; bottom:6px; left:0; background:#f7f7f7 }
+.broom_form label.error { color:#da3939; font-size:10px; font-style:italic; width:40%; text-align:right; padding:0 20px 0 0; background:url(../images/icons/cross_circle.png) no-repeat center right; position:absolute; top:10px; right:0; height:16px }
+.broom_form fieldset .label1 input, .broom_form fieldset .label1 textarea, .broom_form fieldset .label1 select { width:200px }
+.broom_form fieldset .label2 input, .broom_form fieldset .label2 textarea, .broom_form fieldset .label2 select { width:270px }
+.broom_form fieldset .label3 input, .broom_form fieldset .label3 textarea, .broom_form fieldset .label3 select { width:370px }
+.broom_form fieldset label.label_calendar1 input { width:170px; padding:6px 5px 4px 30px }
+.broom_form fieldset label.label_calendar2 input { width:240px; padding:6px 5px 4px 30px }
+.broom_form fieldset label.label_calendar3 input { width:340px; padding:6px 5px 4px 30px }
+/*BULLETPROOF BUTTON : <button> version based on the <a> of Cameron Moll : http://www.cameronmoll.com/  */
+.button { margin:10px 0 5px 10px; background:url(../images/layout/button_highlight.png) top right no-repeat; clear:both }
+.btn-inner { margin:0; padding:7px 0 0; background:url(../images/layout/button_highlight_selected.png) top left no-repeat; text-align:center }
+.btn-inner span { display:block; margin:0; padding:0 0 0 17px; background:url(../img/layout/box-left.gif) bottom left no-repeat }
+.btn-inner em { margin:0; display:block; background:url(../images/layout/box-right.gif) bottom right no-repeat; font-style:normal }
+.btn-inner button { outline:none; border:none; margin:0; padding:0 20px 13px 0; color:#a59a92; font-size:11px; text-transform:capitalize; background:none }
+.btn-inner button img { margin-right:5px; position:relative; top:3px; left:-2px }
+.btn-inner button:hover { color:#fff; cursor:pointer }
+/*NOTIFICATIONS -controls*/
+a.close { position:absolute; top:5px; right:5px; padding-right:15px; color:#900; background:url(../images/icons/cross_small.png) no-repeat right center; font-size:9px }
+/*NOTIFICATIONS -defaults*/
+div.notification { position:relative; margin:5px 0 10px; border-radius:3px }
+div.notification em { padding:10px 10px 10px 30px; font-style:normal; display:block }
+div.notification em img { margin-right:10px; position:relative; top:3px }
+/*NOTIFICATIONS -variations*/
+div.error { border:1px solid #DF8F8F; background:#f6dcd9 }
+div.success { border:1px solid #9ADF8F; background:#D5FFCE }
+div.attention { border:1px solid #E6DB55; background:#FFFBCC }
+div.information { border:1px solid #A2B4EE; background:#DBE3FF }
+
+/*MOUSEOVER*/
+table.broom_table tr.over td, table.broom_table tr:hover td { cursor:pointer; background:#E8E4DE }
+table.broom_table tr:hover a { }
+table.broom_table a.table_delete { padding:0; display:block; width:16px; height:16px; text-indent:-9999px; background:url(../img/icons/cross.png) no-repeat; float:left; margin:0 10px 0 0 }
+table.broom_table a.table_edit { padding:0; display:block; width:16px; height:16px; text-indent:-9999px; background:url(../img/icons/pencil.png) no-repeat; float:left; margin:0 10px 0 0 }
+table.broom_table a.table_comment { padding:0; display:block; width:16px; height:16px; text-indent:-9999px; background:url(../img/icons/balloon.png) no-repeat; float:left; margin:0 10px 0 0 }
+/*TABLE / RECORD PAGINATION*/
+.pagination { margin: 10px 0 0 0; padding: 0; height: 1%; clear: both; overflow: hidden; }
+.pagination div.results { margin: 0; padding: 0; text-align: left; float: left }
+.pagination div.results span { margin: 0; padding: 6px 8px 6px 8px; height: 1%; display: block; float: left; background: #ebebeb url(../images/layout/pager.png) repeat-x; border-top: 1px solid #dedede; border-left: 1px solid #cfcfcf; border-right: 1px solid #c4c4c4; border-bottom: 1px solid #c4c4c4; color: #4A4A4A; font-weight: bold; }
+.pagination ul.pager { margin: 0; padding: 0; float: right; text-align: right; }
+.pagination ul.pager li { font-family: Lucida Grande, Verdana, Lucida Sans Regular, Lucida Sans; margin: 0 0 0 4px; padding: 0; height: 1%; float: left; list-style: none; background: #ebebeb url(../images/layout/pager.png) repeat-x; border-top: 1px solid #dedede; border-left: 1px solid #cfcfcf; border-right: 1px solid #c4c4c4; border-bottom: 1px solid #c4c4c4; color: #4A4A4A; font-weight: bold; }
+.pagination ul.pager li.separator { padding: 6px; }
+.pagination ul.pager li.current { padding: 6px; background: #b4b4b4 url(../images/layout/pager_selected.png) repeat-x; border-top: 1px solid #cccccc; border-left: 1px solid #bebebe; border-right: 1px solid #b1b1b1; border-bottom: 1px solid #afafaf; color: #515151; }
+.pagination ul.pager li.disabled { padding: 6px; color: #B4B4B4; }
+.pagination ul.pager li a { margin: 0; padding: 6px; height: 1%; display: block; float: left; color: #515151; text-decoration: none; font-family: Lucida Grande, Verdana, Lucida Sans Regular, Lucida Sans }
+.pagination ul.pager li a:hover, #content div.box div.pagination ul.pager li a:active { margin: -1px; background: #b4b4b4 url(../images/layout/pager_selected.png) repeat-x; border-top: 1px solid #cccccc; border-left: 1px solid #bebebe; border-right: 1px solid #b1b1b1; border-bottom: 1px solid #afafaf; }
+/*LOGIN*/
+.login_form { position:absolute; top:200px; left:200px; background:url(../img/layout/bg_login_top.gif) no-repeat #FFF; width:600px }
+.login_form fieldset { background:url(../img/layout/bg_login_bottom.gif) no-repeat left bottom; padding:10px 30px 15px; margin-top:10px }
+.login_form label { display:block; position:relative; padding:10px 0; float:left; width:200px; height:45px }
+.login_form fieldset input { border:1px solid #CCC; height:27px; padding:0 5px; position:absolute; top:30px; left:0; outline:none; width:170px; background:#f7f7f7 }
+.login_form .button { clear:none; margin:30px 0 10px }
+.login_form a.forgot_login { font-size:10px; float:right; clear:both }
+/*FOOTER*/
+#footer { font-size:12px; list-style:none; margin:10px 0 0 30px; overflow:hidden; padding:20px 0; border-top:1px solid #ccc; }
+#footer li { float:left; margin-right:10px }
+/*IE7 FIX 18/12/2008 */
+ul.tabbernav li, .login_form a.forgot_login { white-space:nowrap }
+/*additional*/
+.broom_form { clear:both }
+/*additional*/
+.container1, .container2 { margin:0; padding:20px 0 0px 20px }
+/*form*/
+
+div.form { margin: 0; clear: both; overflow: hidden; }
+.ui-dialog div.form { padding: 0; }
+div.form div.fields { margin: 0; padding: 0; clear: both; overflow: hidden;border:1px solid #CDCDCD }
+div.form div.fields div.field { margin: 0; padding: 10px 0 10px 0; height: 1%; border-bottom: 1px solid #DDDDDD; clear: both; overflow: hidden; }
+div.form div.fields div.field-first { padding: 10px 0 10px 0; }
+div.form div.fields div.field span.error { background:url(../images/icons/cross_circle.png) no-repeat 0 8px; margin: 0; padding: 8px 0 0 20px; height: 1%; display: block; clear: both; overflow: hidden; color: #FF0000; }
+div.form div.fields div.field span.success { background:url(../images/icons/tick_circle.png) no-repeat 0 8px; padding: 8px 0 0 20px; height: 1%; display: block; color: #316309; clear: both; }
+/* -----------------------------------------------------------
+	content -> right -> forms -> labels
+----------------------------------------------------------- */
+
+div.form div.fields div.field div.label { margin: 0; padding: 8px 0 0 5px; width: auto; position: absolute; }
+.ui-dialog div.form div.fields div.field div.label, div.box-left div.form div.fields div.field div.label, div.box-right div.form div.fields div.field div.label { left: 0; margin: 0; padding: 0 0 8px 0; width: auto; position: relative; clear: both; overflow: hidden; }
+/* -----------------------------------------------------------
+	content -> right -> forms -> label (select)
+----------------------------------------------------------- */
+
+div.form div.fields div.field div.label-select { padding: 2px 0 0 5px; }
+.ui-dialog div.form div.fields div.field div.label-select, div.box-left div.form div.fields div.field div.label-select, div.box-right div.form div.fields div.field div.label-select { padding: 0 0 8px 0; }
+/* -----------------------------------------------------------
+	content -> right -> forms -> label (checkbox)
+----------------------------------------------------------- */
+
+div.form div.fields div.field div.label-checkbox { padding: 0 0 0 5px; }
+/* -----------------------------------------------------------
+	content -> right -> forms -> label (radio)
+----------------------------------------------------------- */
+
+div.form div.fields div.field div.label-radio { padding: 0 0 0 5px; }
+/* -----------------------------------------------------------
+	content -> right -> forms -> label (textarea)
+----------------------------------------------------------- */
+
+div.form div.fields div.field div.label-textarea { padding: 0 0 0 5px; }
+.ui-dialog div.form div.fields div.field div.label-textarea, div.box-left div.form div.fields div.field div.label-textarea, div.box-right div.form div.fields div.field div.label-textarea { padding: 0 0 8px 0; }
+/* -----------------------------------------------------------
+	content -> right -> forms -> labels (label)
+----------------------------------------------------------- */
+
+div.form div.fields div.field div.label label { color: #393939;}
+div.form div.fields div.field div.label span { margin: 0; padding: 2px 0 0 0; height: 1%; display: block; color: #363636; }
+/* -----------------------------------------------------------
+	content -> right -> forms -> input
+----------------------------------------------------------- */
+
+div.form div.fields div.field div.input { margin: 0 0 0 200px; padding: 0; overflow:hidden }
+.ui-dialog div.form div.fields div.field div.input, div.box-left div.form div.fields div.field div.input, div.box-right div.form div.fields div.field div.input { margin: 0; padding: 0; clear: both; overflow: hidden; }
+div.form div.fields div.field div.input input { margin: 0; padding: 7px 7px 6px; float: left; background: #FFFFFF; border-top: 1px solid #b3b3b3; border-left: 1px solid #b3b3b3; border-right: 1px solid #eaeaea; border-bottom: 1px solid #eaeaea; color: #000000; font-family: Lucida Grande, Verdana, Lucida Sans Regular, Lucida Sans Unicode, Arial, sans-serif; font-size: 11px; }
+.ui-dialog div.form div.fields div.field div.input input { width: 200px; }
+div.form div.fields div.field div.input-file input { float: none; }
+div.form div.fields div.field div.input input.small { width: 200px; }
+div.box-left div.form div.fields div.field div.input input.small, div.box-right div.form div.fields div.field div.input input.small { width: 200px; }
+div.form div.fields div.field div.input input.medium { width: 300px; }
+div.box-left div.form div.fields div.field div.input input.medium, div.box-right div.form div.fields div.field div.input input.medium { width: 260px; }
+div.form div.fields div.field div.input input.large { width: 400px; }
+div.box-left div.form div.fields div.field div.input input.large, div.box-right div.form div.fields div.field div.input input.large { width: 320px; }
+div.form div.fields div.field div.input input.date { width: 180px; background: url(../images/icons/calendar.png) no-repeat 7px 6px; padding: 7px 7px 6px 30px; }
+div.form div.fields div.field div.input input.button { margin: 0; padding: 4px 8px 4px 8px; background: #D4D0C8; border-top: 1px solid #FFFFFF; border-left: 1px solid #FFFFFF; border-right: 1px solid #404040; border-bottom: 1px solid #404040; color: #000000; }
+div.form div.fields div.field div.input input.error { background: #FBE3E4; border-top: 1px solid #e1b2b3; border-left: 1px solid #e1b2b3; border-right: 1px solid #FBC2C4; border-bottom: 1px solid #FBC2C4; }
+div.form div.fields div.field div.input input.valid { background: #E6EFC2; border-top: 1px solid #cebb98; border-left: 1px solid #cebb98; border-right: 1px solid #c6d880; border-bottom: 1px solid #c6d880; }
+div.form div.fields div.field div.input img.ui-datepicker-trigger { margin: 0 0 0 6px; }
+/* -----------------------------------------------------------
+	content -> right -> forms -> input (file styling)
+----------------------------------------------------------- */
+
+div.form div.fields div.field div.input a.ui-input-file { margin: 0 0 0 6px; padding: 0; width: 28px; height: 28px; display: inline; position: absolute; overflow: hidden; cursor: pointer; background: #e5e3e3 url(../images/icons/button_browse.png) no-repeat; border: none; text-decoration: none; }
+div.form div.fields div.field div.input a:hover.ui-input-file { background: #e5e3e3 url(../images/icons/button_browse_selected.png) no-repeat; }
+/* -----------------------------------------------------------
+	content -> right -> forms -> textarea
+----------------------------------------------------------- */
+
+div.form div.fields div.field div.textarea { margin: 0 0 0 200px; padding: 10px; border-top: 1px solid #b3b3b3; border-left: 1px solid #b3b3b3; border-right: 1px solid #eaeaea; border-bottom: 1px solid #eaeaea; }
+div.form div.fields div.field div.textarea-editor { padding: 0; border: 1px solid #dddddd; }
+.ui-dialog div.form div.fields div.field div.textarea, div.box-left div.form div.fields div.field div.textarea, div.box-right div.form div.fields div.field div.textarea { margin: 0; }
+div.form div.fields div.field div.textarea textarea { margin: 0; padding: 0; width: 600px; height: 220px; overflow: hidden; background: #FFFFFF; border-width: 0; color: #000000;font-size: 12px; outline: none; }
+.ui-dialog div.form div.fields div.field div.textarea textarea, div.box-left div.form div.fields div.field div.textarea textarea, div.box-right div.form div.fields div.field div.textarea textarea { width: 100%; height: 100px; }
+div.form div.fields div.field div.textarea textarea.error { padding: 3px 10px 10px 23px; background-color: #FBE3E4; background-image: url("../../resources/../../resources/images/icons/exclamation.png"); background-repeat: no-repeat; background-position: 3px 3px; border: 1px solid #FBC2C4; }
+div.form div.fields div.field div.textarea textarea.success { padding: 3px 10px 10px 23px; background-color: #E6EFC2; background-image: url("../../resources/../../resources/images/icons/accept.png"); background-repeat: no-repeat; background-position: 3px 3px; border: 1px solid #C6D880; }
+/* -----------------------------------------------------------
+	content -> right -> forms -> textarea (tinymce editor)
+----------------------------------------------------------- */
+
+#content div.box div.form div.fields div.field div.textarea table { margin: 0; padding: 0; width: 100%; border: none; }
+#content div.box div.form div.fields div.field div.textarea table td { padding: 0; background: #DDDDDD; border: none; }
+#content div.box div.form div.fields div.field div.textarea table td table { margin: 0; padding: 0; width: auto; border: none; }
+#content div.box div.form div.fields div.field div.textarea table td table td { padding: 5px 5px 5px 0; font-family: Lucida Grande, Verdana, Lucida Sans Regular, Lucida Sans Unicode, Arial, sans-serif; font-size: 11px; }
+#content div.box div.form div.fields div.field div.textarea table td table td a { border: none; }
+#content div.box div.form div.fields div.field div.textarea table td table td a.mceButtonActive { background: #b1b1b1; }
+/* -----------------------------------------------------------
+	content -> right -> forms -> select
+----------------------------------------------------------- */
+
+div.form div.fields div.field div.select { margin: 0 0 0 200px; padding: 0; float: left; }
+div.form div.fields div.field div.select a:hover { color: #000000; text-decoration: none; }
+div.form div.fields div.field div.select select { margin: 0; }
+/* -----------------------------------------------------------
+	content -> right -> forms -> select (jquery styling)
+----------------------------------------------------------- */
+
+div.form div.fields div.field div.select a.ui-selectmenu-focus { border: 1px solid #666666; }
+div.form div.fields div.field div.select a.ui-selectmenu { color: #565656; text-decoration: none; }
+div.form div.fields div.field div.select a.ui-selectmenu:hover { color: #000000; text-decoration: none; }
+div.form div.fields div.field div.select a.ui-selectmenu-focus span.ui-icon { background-image: url(../images/icons/ui-icons_222222_256x240.png); }
+/* -----------------------------------------------------------
+	content -> right -> forms -> element focus
+----------------------------------------------------------- */
+
+div.form div.fields div.field input[type=text]:focus, div.form div.fields div.field input[type=password]:focus, div.form div.fields div.field input[type=file]:focus, div.form div.fields div.field textarea:focus, div.form div.fields div.field select:focus { background: #f6f6f6; border-color: #666; }
+/* -----------------------------------------------------------
+	content -> right -> forms -> checkboxes
+----------------------------------------------------------- */
+
+div.form div.fields div.field div.checkboxes { margin: 0 0 0 200px; padding: 0; }
+div.form div.fields div.field div.checkboxes div.checkbox { margin: 0; padding: 2px 0 2px 0; float:left; display:inline-block;overflow: hidden; }
+div.form div.fields div.field div.checkboxes div.checkbox input { margin:2px; float: left; }
+div.form div.fields div.field div.checkboxes div.checkbox label { margin:0px 20px 0 0; height: 1%; display: block; float: left; }
+/* -----------------------------------------------------------
+	content -> right -> forms -> radios
+----------------------------------------------------------- */
+
+div.form div.fields div.field div.radios { margin: 0 0 0 200px; padding: 0; }
+div.form div.fields div.field div.radios div.radio { margin: 0; padding: 2px 0 2px 0; clear: both; overflow: hidden; }
+div.form div.fields div.field div.radios div.radio input { margin: 0; float: left; }
+div.form div.fields div.field div.radios div.radio label { margin: 3px 0 0 4px; height: 1%; display: block; float: left; }
+/* -----------------------------------------------------------
+	content -> right -> forms -> button
+----------------------------------------------------------- */
+
+div.button { margin: 0; padding: 0 0 0 8px; }
+div.button input { margin: 0; color: #000000; background:#00A0E9; border-color:#5C91A4 #2B7089 #1A6480 #2A6F89; font-size: 11px; font-weight: bold; padding:5px 12px; }
+div.button .ui-state-default { margin: 0; padding: 6px 12px 6px 12px; background: #e5e3e3 url("../images/layout/button.png") repeat-x; border-top: 1px solid #DDDDDD; border-left: 1px solid #c6c6c6; border-right: 1px solid #DDDDDD; border-bottom: 1px solid #c6c6c6; color: #515151; outline: none; }
+div.button .ui-state-hover { margin: 0; padding: 6px 12px 6px 12px; background: #b4b4b4 url("../images/layout/button_selected.png") repeat-x; border-top: 1px solid #cccccc; border-left: 1px solid #bebebe; border-right: 1px solid #b1b1b1; border-bottom: 1px solid #afafaf; color: #515151; outline: none; }
+div.form div.fields div.field div.highlight { display: inline-block; }
+div.form div.fields div.field div.highlight .ui-state-default { margin: 0; padding: 6px 12px 6px 12px; background: #4e85bb url("../images/layout/button_highlight.png") repeat-x; border-top: 1px solid #5c91a4; border-left: 1px solid #2a6f89; border-right: 1px solid #2b7089; border-bottom: 1px solid #1a6480; color: #FFFFFF; }
+div.form div.fields div.field div.highlight .ui-state-hover { margin: 0; padding: 6px 12px 6px 12px; background: #46a0c1 url("../images/layout/button_highlight_selected.png") repeat-x; border-top: 1px solid #78acbf; border-left: 1px solid #34819e; border-right: 1px solid #35829f; border-bottom: 1px solid #257897; color: #FFFFFF; }
+/* -----------------------------------------------------------
+	content -> right -> forms -> buttons
+----------------------------------------------------------- */
+
+div.form div.fields div.buttons { margin: 10px 0 0 200px; padding: 0; }
+div.box-left div.form div.fields div.buttons, div.box-right div.form div.fields div.buttons { margin: 10px 0 0 0; }
+div.form div.fields div.buttons input { margin: 0; color: #000000; font-family: Lucida Grande, Verdana, Lucida Sans Regular, Lucida Sans Unicode, Arial, sans-serif; font-size: 12px; font-weight: bold; }
+/* -----------------------------------------------------------
+	content -> right -> forms -> buttons (jquery styling)
+----------------------------------------------------------- */
+
+div.form div.fields div.buttons .ui-state-default { margin: 0; padding: 6px 12px 6px 12px; background: #e5e3e3 url(../images/layout/button.png) repeat-x; border-top: 1px solid #DDDDDD; border-left: 1px solid #c6c6c6; border-right: 1px solid #DDDDDD; border-bottom: 1px solid #c6c6c6; color: #515151; outline: none;
+    height: 32px;
+}
+div.form div.fields div.buttons .ui-state-default:hover { margin: 0; padding: 6px 12px 6px 12px; background: #b4b4b4 url(../images/layout/button_selected.png) repeat-x; border-top: 1px solid #cccccc; border-left: 1px solid #bebebe; border-right: 1px solid #b1b1b1; border-bottom: 1px solid #afafaf; color: #515151; outline: none; }
+div.form div.fields div.buttons div.highlight { display: inline; }
+div.form div.fields div.buttons div.highlight .ui-state-default { margin: 0; padding: 6px 12px 6px 12px; background: #4e85bb url(../images/layout/button_highlight.png) repeat-x; border-top: 1px solid #5c91a4; border-left: 1px solid #2a6f89; border-right: 1px solid #2b7089; border-bottom: 1px solid #1a6480; color: #FFFFFF; }
+div.form div.fields div.buttons div.highlight .ui-state-default:hover { margin: 0; padding: 6px 12px 6px 12px; background: #46a0c1 url(../images/layout/button_highlight_selected.png) repeat-x; border-top: 1px solid #78acbf; border-left: 1px solid #34819e; border-right: 1px solid #35829f; border-bottom: 1px solid #257897; color: #FFFFFF; }
+.ui-state-custom{ margin: 0; padding: 6px 12px 6px 12px; background: #4e85bb url(../images/layout/button_highlight.png) repeat-x; border-top: 1px solid #5c91a4; border-left: 1px solid #2a6f89; border-right: 1px solid #2b7089; border-bottom: 1px solid #1a6480; color: #FFFFFF; }
+.ui-state-custom:hover { margin: 0; padding: 6px 12px 6px 12px; background: #46a0c1 url(../images/layout/button_highlight_selected.png) repeat-x; border-top: 1px solid #78acbf; border-left: 1px solid #34819e; border-right: 1px solid #35829f; border-bottom: 1px solid #257897; color: #FFFFFF; }
+/* -----------------------------------------------------------
+	content -> right -> box / tables
+----------------------------------------------------------- */
+
+#content div.box div.table { margin: 0; padding: 0 20px 10px 20px; clear: both; overflow: hidden; }
+#content div.box table { margin: 0; padding: 0; width: 100%; border-collapse: collapse; }
+#content div.box table th { padding: 10px; background: #eeeeee; border-right: 1px solid #cdcdcd; border-bottom: 1px solid #cdcdcd; }
+#content div.box table th.last { border-right: none; }
+#content div.box table th.left { text-align: left; }
+#content div.box table th.right { text-align: right; }
+#content div.box table th.center { text-align: center; }
+#content div.box table th.selected { padding: 0; vertical-align: middle; }
+#content div.box table th.selected input { margin: 0; }
+#content div.box table td { padding: 10px; background: #ffffff; border-right: 1px solid #cdcdcd; border-bottom: 1px solid #cdcdcd; }
+#content div.box table td.last { border-right: none; }
+#content div.box table tr.selected td { background: #FFFFCC; }
+#content div.box table td.selected { padding: 0; width: 3%; text-align: center; vertical-align: middle; }
+#content div.box table td.selected input { margin: 0; }
+#content div.box table td.title { width: 45%; text-align: left; }
+#content div.box table td.price { width: 10%; text-align: center; }
+#content div.box table td.date { width: 33%; text-align: center; }
+#content div.box table td.category { width: 10%; text-align: center; }
+.ui-datepicker-trigger { display:none; }
+/* -----------------------------------------------------------
+	content -> right -> box / table action
+----------------------------------------------------------- */
+
+#content div.box div.action { margin: 10px 0 0 0; padding: 0; float: right; background: #FFFFFF; text-align: right; }
+#content div.box div.action a:hover { color: #000000; text-decoration: none; }
+#content div.box div.action select { margin: 0; font-family: Lucida Grande, Verdana, Lucida Sans Regular, Lucida Sans Unicode, Arial, sans-serif; font-size: 11px; }
+#content div.box div.action div.button { margin: 6px 0 0 0; padding: 0; text-align: right; }
+#content div.box div.action div.button input { margin: 0; color: #000000; font-family: Lucida Grande, Verdana, Lucida Sans Regular, Lucida Sans Unicode, Arial, sans-serif; font-size: 11px; font-weight: bold; }
+#content div.box div.action div.button input.ui-state-default { margin: 0; padding: 6px 12px 6px 12px; background: #e5e3e3 url("../../resources/images/button.png") repeat-x; border-top: 1px solid #DDDDDD; border-left: 1px solid #c6c6c6; border-right: 1px solid #DDDDDD; border-bottom: 1px solid #c6c6c6; color: #515151; }
+#content div.box div.action div.button input.ui-state-hover { margin: 0; padding: 6px 12px 6px 12px; background: #b4b4b4 url("../../resources/images/button_selected.png") repeat-x; border-top: 1px solid #cccccc; border-left: 1px solid #bebebe; border-right: 1px solid #b1b1b1; border-bottom: 1px solid #afafaf; color: #515151; }
+#content div.box div.action .ui-selectmenu { margin: 0; padding: 0; }
+#content div.box div.action a.ui-selectmenu-focus { border: 1px solid #666666; }
+#content div.box div.action a.ui-selectmenu-focus span.ui-icon { background-image: url(../images/icons/ui-icons_222222_256x240.png); }
+/* -----------------------------------------------------------
+	content -> right -> pagination
+----------------------------------------------------------- */
+
+#content div.box div.pagination { margin: 10px 0 0 0; padding: 0; height: 1%; clear: both; overflow: hidden; }
+#content div.box div.pagination div.results { margin: 0; padding: 0; text-align: left; float: left }
+#content div.box div.pagination div.results span { margin: 0; padding: 6px 8px 6px 8px; height: 1%; display: block; float: left; background: #ebebeb url("../../resources/images/pager.png") repeat-x; border-top: 1px solid #dedede; border-left: 1px solid #cfcfcf; border-right: 1px solid #c4c4c4; border-bottom: 1px solid #c4c4c4; color: #4A4A4A; font-weight: bold; }
+#content div.box div.pagination ul.pager { margin: 0; padding: 0; float: right; text-align: right; }
+#content div.box div.pagination ul.pager li { margin: 0 0 0 4px; padding: 0; height: 1%; float: left; list-style: none; background: #ebebeb url("../../resources/images/pager.png") repeat-x; border-top: 1px solid #dedede; border-left: 1px solid #cfcfcf; border-right: 1px solid #c4c4c4; border-bottom: 1px solid #c4c4c4; color: #4A4A4A; font-weight: bold; }
+#content div.box div.pagination ul.pager li.separator { padding: 6px; }
+#content div.box div.pagination ul.pager li.current { padding: 6px; background: #b4b4b4 url("../../resources/images/pager_selected.png") repeat-x; border-top: 1px solid #cccccc; border-left: 1px solid #bebebe; border-right: 1px solid #b1b1b1; border-bottom: 1px solid #afafaf; color: #515151; }
+#content div.box div.pagination ul.pager li.disabled { padding: 6px; color: #B4B4B4; }
+#content div.box div.pagination ul.pager li a { margin: 0; padding: 6px; height: 1%; display: block; float: left; color: #515151; text-decoration: none; }
+#content div.box div.pagination ul.pager li a:hover, #content div.box div.pagination ul.pager li a:active { margin: -1px; background: #b4b4b4 url("../../resources/images/pager_selected.png") repeat-x; border-top: 1px solid #cccccc; border-left: 1px solid #bebebe; border-right: 1px solid #b1b1b1; border-bottom: 1px solid #afafaf; }
+/* -----------------------------------------------------------
+	content -> right -> sales chart
+----------------------------------------------------------- */
+
+#content div.box div.sales { margin: 0; padding: 0 20px 10px 20px; clear: both; overflow: hidden; }
+#content div.box div.sales div.legend { margin: 0 0 10px 0; padding: 0 0 10px 0; clear: both; overflow: hidden; border-bottom: 1px solid #dddddd; }
+#content div.box div.sales div.legend h6 { margin: 0; padding: 0; float: left; border: none; }
+#content div.box div.sales div.legend ul { margin: 0; padding: 0; float: right; }
+#content div.box div.sales div.legend li { margin: 0; padding: 0 8px 0 4px; list-style: none; float: left; font-size: 11px; }
+#content div.box div.sales div.legend li.monitors { border-left: 12px solid #edc240; }
+#content div.box div.sales div.legend li.memory { border-left: 12px solid #afd8f8; }
+#content div.box div.sales table { width: auto; }
+#content div.box div.sales table td { padding: 2px 3px 3px 3px; background: transparent; border: none; }
+#content div.box div.sales table td.legendLabel { padding: 0 3px 2px 3px; }
+/* -----------------------------------------------------------
+	jquery ui
+----------------------------------------------------------- */
+
+.ui-helper-hidden { display: none; }
+.ui-helper-hidden-accessible { position: absolute; left: -99999999px; }
+.ui-icon { display: block; text-indent: -99999px; overflow: hidden; background-repeat: no-repeat; }
+.ui-widget-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+/* -----------------------------------------------------------
+	jquery ui -> icons
+----------------------------------------------------------- */
+
+.ui-icon { width: 16px; height: 16px; background-image: url(../images/icons/ui-icons_222222_256x240.png); }
+.ui-widget-content .ui-icon { background-image: url(../images/icons/ui-icons_222222_256x240.png); }
+.ui-widget-header .ui-icon { background-image: url(../images/icons/ui-icons_222222_256x240.png); }
+.ui-state-default .ui-icon { background-image: url(../images/icons/ui-icons_ef8c08_256x240.png); }
+.ui-state-hover .ui-icon, .ui-state-focus .ui-icon { background-image: url(../images/icons/ui-icons_ef8c08_256x240.png); }
+.ui-state-active .ui-icon { background-image: url(../images/icons/ui-icons_ef8c08_256x240.png); }
+.ui-state-highlight .ui-icon { background-image: url(../images/icons/ui-icons_228ef1_256x240.png); }
+.ui-state-error .ui-icon, .ui-state-error-text .ui-icon { background-image: url(../images/icons/ui-icons_ffd27a_256x240.png); }
+/* -----------------------------------------------------------
+	jquery ui -> icon positioning
+----------------------------------------------------------- */
+.ui-icon-carat-1-n { background-position: 0 0; }
+.ui-icon-carat-1-ne { background-position: -16px 0; }
+.ui-icon-carat-1-e { background-position: -32px 0; }
+.ui-icon-carat-1-se { background-position: -48px 0; }
+.ui-icon-carat-1-s { background-position: -64px 0; }
+.ui-icon-carat-1-sw { background-position: -80px 0; }
+.ui-icon-carat-1-w { background-position: -96px 0; }
+.ui-icon-carat-1-nw { background-position: -112px 0; }
+.ui-icon-carat-2-n-s { background-position: -128px 0; }
+.ui-icon-carat-2-e-w { background-position: -144px 0; }
+.ui-icon-triangle-1-n { background-position: 0 -16px; }
+.ui-icon-triangle-1-ne { background-position: -16px -16px; }
+.ui-icon-triangle-1-e { background-position: -32px -16px; }
+.ui-icon-triangle-1-se { background-position: -48px -16px; }
+.ui-icon-triangle-1-s { background-position: -64px -16px; }
+.ui-icon-triangle-1-sw { background-position: -80px -16px; }
+.ui-icon-triangle-1-w { background-position: -96px -16px; }
+.ui-icon-triangle-1-nw { background-position: -112px -16px; }
+.ui-icon-triangle-2-n-s { background-position: -128px -16px; }
+.ui-icon-triangle-2-e-w { background-position: -144px -16px; }
+.ui-icon-arrow-1-n { background-position: 0 -32px; }
+.ui-icon-arrow-1-ne { background-position: -16px -32px; }
+.ui-icon-arrow-1-e { background-position: -32px -32px; }
+.ui-icon-arrow-1-se { background-position: -48px -32px; }
+.ui-icon-arrow-1-s { background-position: -64px -32px; }
+.ui-icon-arrow-1-sw { background-position: -80px -32px; }
+.ui-icon-arrow-1-w { background-position: -96px -32px; }
+.ui-icon-arrow-1-nw { background-position: -112px -32px; }
+.ui-icon-arrow-2-n-s { background-position: -128px -32px; }
+.ui-icon-arrow-2-ne-sw { background-position: -144px -32px; }
+.ui-icon-arrow-2-e-w { background-position: -160px -32px; }
+.ui-icon-arrow-2-se-nw { background-position: -176px -32px; }
+.ui-icon-arrowstop-1-n { background-position: -192px -32px; }
+.ui-icon-arrowstop-1-e { background-position: -208px -32px; }
+.ui-icon-arrowstop-1-s { background-position: -224px -32px; }
+.ui-icon-arrowstop-1-w { background-position: -240px -32px; }
+.ui-icon-arrowthick-1-n { background-position: 0 -48px; }
+.ui-icon-arrowthick-1-ne { background-position: -16px -48px; }
+.ui-icon-arrowthick-1-e { background-position: -32px -48px; }
+.ui-icon-arrowthick-1-se { background-position: -48px -48px; }
+.ui-icon-arrowthick-1-s { background-position: -64px -48px; }
+.ui-icon-arrowthick-1-sw { background-position: -80px -48px; }
+.ui-icon-arrowthick-1-w { background-position: -96px -48px; }
+.ui-icon-arrowthick-1-nw { background-position: -112px -48px; }
+.ui-icon-arrowthick-2-n-s { background-position: -128px -48px; }
+.ui-icon-arrowthick-2-ne-sw { background-position: -144px -48px; }
+.ui-icon-arrowthick-2-e-w { background-position: -160px -48px; }
+.ui-icon-arrowthick-2-se-nw { background-position: -176px -48px; }
+.ui-icon-arrowthickstop-1-n { background-position: -192px -48px; }
+.ui-icon-arrowthickstop-1-e { background-position: -208px -48px; }
+.ui-icon-arrowthickstop-1-s { background-position: -224px -48px; }
+.ui-icon-arrowthickstop-1-w { background-position: -240px -48px; }
+.ui-icon-arrowreturnthick-1-w { background-position: 0 -64px; }
+.ui-icon-arrowreturnthick-1-n { background-position: -16px -64px; }
+.ui-icon-arrowreturnthick-1-e { background-position: -32px -64px; }
+.ui-icon-arrowreturnthick-1-s { background-position: -48px -64px; }
+.ui-icon-arrowreturn-1-w { background-position: -64px -64px; }
+.ui-icon-arrowreturn-1-n { background-position: -80px -64px; }
+.ui-icon-arrowreturn-1-e { background-position: -96px -64px; }
+.ui-icon-arrowreturn-1-s { background-position: -112px -64px; }
+.ui-icon-arrowrefresh-1-w { background-position: -128px -64px; }
+.ui-icon-arrowrefresh-1-n { background-position: -144px -64px; }
+.ui-icon-arrowrefresh-1-e { background-position: -160px -64px; }
+.ui-icon-arrowrefresh-1-s { background-position: -176px -64px; }
+.ui-icon-arrow-4 { background-position: 0 -80px; }
+.ui-icon-arrow-4-diag { background-position: -16px -80px; }
+.ui-icon-extlink { background-position: -32px -80px; }
+.ui-icon-newwin { background-position: -48px -80px; }
+.ui-icon-refresh { background-position: -64px -80px; }
+.ui-icon-shuffle { background-position: -80px -80px; }
+.ui-icon-transfer-e-w { background-position: -96px -80px; }
+.ui-icon-transferthick-e-w { background-position: -112px -80px; }
+.ui-icon-folder-collapsed { background-position: 0 -96px; }
+.ui-icon-folder-open { background-position: -16px -96px; }
+.ui-icon-document { background-position: -32px -96px; }
+.ui-icon-document-b { background-position: -48px -96px; }
+.ui-icon-note { background-position: -64px -96px; }
+.ui-icon-mail-closed { background-position: -80px -96px; }
+.ui-icon-mail-open { background-position: -96px -96px; }
+.ui-icon-suitcase { background-position: -112px -96px; }
+.ui-icon-comment { background-position: -128px -96px; }
+.ui-icon-person { background-position: -144px -96px; }
+.ui-icon-print { background-position: -160px -96px; }
+.ui-icon-trash { background-position: -176px -96px; }
+.ui-icon-locked { background-position: -192px -96px; }
+.ui-icon-unlocked { background-position: -208px -96px; }
+.ui-icon-bookmark { background-position: -224px -96px; }
+.ui-icon-tag { background-position: -240px -96px; }
+.ui-icon-home { background-position: 0 -112px; }
+.ui-icon-flag { background-position: -16px -112px; }
+.ui-icon-calendar { background-position: -32px -112px; }
+.ui-icon-cart { background-position: -48px -112px; }
+.ui-icon-pencil { background-position: -64px -112px; }
+.ui-icon-clock { background-position: -80px -112px; }
+.ui-icon-disk { background-position: -96px -112px; }
+.ui-icon-calculator { background-position: -112px -112px; }
+.ui-icon-zoomin { background-position: -128px -112px; }
+.ui-icon-zoomout { background-position: -144px -112px; }
+.ui-icon-search { background-position: -160px -112px; }
+.ui-icon-wrench { background-position: -176px -112px; }
+.ui-icon-gear { background-position: -192px -112px; }
+.ui-icon-heart { background-position: -208px -112px; }
+.ui-icon-star { background-position: -224px -112px; }
+.ui-icon-link { background-position: -240px -112px; }
+.ui-icon-cancel { background-position: 0 -128px; }
+.ui-icon-plus { background-position: -16px -128px; }
+.ui-icon-plusthick { background-position: -32px -128px; }
+.ui-icon-minus { background-position: -48px -128px; }
+.ui-icon-minusthick { background-position: -64px -128px; }
+.ui-icon-close { background-position: -80px -128px; }
+.ui-icon-closethick { background-position: -96px -128px; }
+.ui-icon-key { background-position: -112px -128px; }
+.ui-icon-lightbulb { background-position: -128px -128px; }
+.ui-icon-scissors { background-position: -144px -128px; }
+.ui-icon-clipboard { background-position: -160px -128px; }
+.ui-icon-copy { background-position: -176px -128px; }
+.ui-icon-contact { background-position: -192px -128px; }
+.ui-icon-image { background-position: -208px -128px; }
+.ui-icon-video { background-position: -224px -128px; }
+.ui-icon-script { background-position: -240px -128px; }
+.ui-icon-alert { background-position: 0 -144px; }
+.ui-icon-info { background-position: -16px -144px; }
+.ui-icon-notice { background-position: -32px -144px; }
+.ui-icon-help { background-position: -48px -144px; }
+.ui-icon-check { background-position: -64px -144px; }
+.ui-icon-bullet { background-position: -80px -144px; }
+.ui-icon-radio-off { background-position: -96px -144px; }
+.ui-icon-radio-on { background-position: -112px -144px; }
+.ui-icon-pin-w { background-position: -128px -144px; }
+.ui-icon-pin-s { background-position: -144px -144px; }
+.ui-icon-play { background-position: 0 -160px; }
+.ui-icon-pause { background-position: -16px -160px; }
+.ui-icon-seek-next { background-position: -32px -160px; }
+.ui-icon-seek-prev { background-position: -48px -160px; }
+.ui-icon-seek-end { background-position: -64px -160px; }
+.ui-icon-seek-start { background-position: -80px -160px; }
+/* ui-icon-seek-first is deprecated, use ui-icon-seek-start instead */
+.ui-icon-seek-first { background-position: -80px -160px; }
+.ui-icon-stop { background-position: -96px -160px; }
+.ui-icon-eject { background-position: -112px -160px; }
+.ui-icon-volume-off { background-position: -128px -160px; }
+.ui-icon-volume-on { background-position: -144px -160px; }
+.ui-icon-power { background-position: 0 -176px; }
+.ui-icon-signal-diag { background-position: -16px -176px; }
+.ui-icon-signal { background-position: -32px -176px; }
+.ui-icon-battery-0 { background-position: -48px -176px; }
+.ui-icon-battery-1 { background-position: -64px -176px; }
+.ui-icon-battery-2 { background-position: -80px -176px; }
+.ui-icon-battery-3 { background-position: -96px -176px; }
+.ui-icon-circle-plus { background-position: 0 -192px; }
+.ui-icon-circle-minus { background-position: -16px -192px; }
+.ui-icon-circle-close { background-position: -32px -192px; }
+.ui-icon-circle-triangle-e { background-position: -48px -192px; }
+.ui-icon-circle-triangle-s { background-position: -64px -192px; }
+.ui-icon-circle-triangle-w { background-position: -80px -192px; }
+.ui-icon-circle-triangle-n { background-position: -96px -192px; }
+.ui-icon-circle-arrow-e { background-position: -112px -192px; }
+.ui-icon-circle-arrow-s { background-position: -128px -192px; }
+.ui-icon-circle-arrow-w { background-position: -144px -192px; }
+.ui-icon-circle-arrow-n { background-position: -160px -192px; }
+.ui-icon-circle-zoomin { background-position: -176px -192px; }
+.ui-icon-circle-zoomout { background-position: -192px -192px; }
+.ui-icon-circle-check { background-position: -208px -192px; }
+.ui-icon-circlesmall-plus { background-position: 0 -208px; }
+.ui-icon-circlesmall-minus { background-position: -16px -208px; }
+.ui-icon-circlesmall-close { background-position: -32px -208px; }
+.ui-icon-squaresmall-plus { background-position: -48px -208px; }
+.ui-icon-squaresmall-minus { background-position: -64px -208px; }
+.ui-icon-squaresmall-close { background-position: -80px -208px; }
+.ui-icon-grip-dotted-vertical { background-position: 0 -224px; }
+.ui-icon-grip-dotted-horizontal { background-position: -16px -224px; }
+.ui-icon-grip-solid-vertical { background-position: -32px -224px; }
+.ui-icon-grip-solid-horizontal { background-position: -48px -224px; }
+.ui-icon-gripsmall-diagonal-se { background-position: -64px -224px; }
+.ui-icon-grip-diagonal-se { background-position: -80px -224px; }
+/* -----------------------------------------------------------
+	jquery ui -> misc visuals
+----------------------------------------------------------- */
+
+.ui-widget-overlay { background: #666666 url(../images/icons/ui-bg_diagonals-thick_20_666666_40x40.png) 50% 50% repeat; opacity: .50; filter:Alpha(Opacity=50); }
+.ui-widget-shadow { margin: -5px 0 0 -5px; padding: 5px; background: #000000 url(../images/icons/ui-bg_flat_10_000000_40x100.png) 50% 50% repeat-x; opacity: .20; filter:Alpha(Opacity=20); -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
+/* -----------------------------------------------------------
+	jquery ui -> resizable
+----------------------------------------------------------- */
+
+.ui-resizable { position: relative; }
+.ui-resizable-handle { position: absolute; font-size: 0.1px; z-index: 99999; display: block; }
+.ui-resizable-disabled .ui-resizable-handle, .ui-resizable-autohide .ui-resizable-handle { display: none; }
+.ui-resizable-n { cursor: n-resize; height: 7px; width: 100%; top: -5px; left: 0; }
+.ui-resizable-s { cursor: s-resize; height: 7px; width: 100%; bottom: -5px; left: 0; }
+.ui-resizable-e { cursor: e-resize; width: 7px; right: -5px; top: 0; height: 100%; }
+.ui-resizable-w { cursor: w-resize; width: 7px; left: -5px; top: 0; height: 100%; }
+.ui-resizable-se { cursor: se-resize; width: 12px; height: 12px; right: 1px; bottom: 1px; }
+.ui-resizable-sw { cursor: sw-resize; width: 9px; height: 9px; left: -5px; bottom: -5px; }
+.ui-resizable-nw { cursor: nw-resize; width: 9px; height: 9px; left: -5px; top: -5px; }
+.ui-resizable-ne { cursor: ne-resize; width: 9px; height: 9px; right: -5px; top: -5px; }/* Selectable
+
+/* -----------------------------------------------------------
+	jquery ui -> tabs
+----------------------------------------------------------- */
+.ui-tabs .ui-tabs-hide { display: none; }
+/* -----------------------------------------------------------
+	jquery ui -> datepicker
+----------------------------------------------------------- */
+.ui-datepicker { width:212px; padding: .2em .2em 0; background: #FFFFFF; border: 1px solid #000000; border-top: none; }
+.ui-datepicker .ui-datepicker-header { position:relative; padding:.2em 0; background: #F6F6F6; }
+.ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-next { position:absolute; top: 1px; width: 1.8em; height: 1.8em; }
+.ui-datepicker .ui-datepicker-prev-hover, .ui-datepicker .ui-datepicker-next-hover { top: 1px; }
+.ui-datepicker .ui-datepicker-prev { left: 0; }
+.ui-datepicker .ui-datepicker-next { right: 0; }
+.ui-datepicker .ui-datepicker-prev-hover { left: 0; }
+.ui-datepicker .ui-datepicker-next-hover { right: 0; }
+.ui-datepicker .ui-datepicker-prev span, .ui-datepicker .ui-datepicker-next span { display: block; position: absolute; left: 50%; margin-left: -8px; top: 50%; margin-top: -8px; }
+.ui-datepicker .ui-datepicker-title { margin: 0 2.3em; line-height: 1.8em; text-align: center; }
+.ui-datepicker .ui-datepicker-title select { margin:1px 0; }
+.ui-datepicker select.ui-datepicker-month-year { width: 100%; }
+.ui-datepicker select.ui-datepicker-month, .ui-datepicker select.ui-datepicker-year { width: 49%; }
+.ui-datepicker table { width: 100%; border-collapse: collapse; margin: 0 0 4px 0; font-size:11px; }
+.ui-datepicker th { padding: .7em .3em; text-align: center; border: 0; }
+.ui-datepicker td { border: 0; padding: 1px; }
+.ui-datepicker td span, .ui-datepicker td a { display: block; padding: 3px; text-align: center; text-decoration: none; }
+.ui-datepicker td span, .ui-datepicker td a:hover { background: #376ea6; color: #ffffff; }
+.ui-datepicker .ui-datepicker-buttonpane { background-image: none; margin: .7em 0 0 0; padding:0 .2em; border-left: 0; border-right: 0; border-bottom: 0; }
+.ui-datepicker .ui-datepicker-buttonpane button { float: right; margin: .5em .2em .4em; cursor: pointer; padding: .2em .6em .3em .6em; width:auto; overflow:visible; }
+.ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current { float:left; }
+.ui-datepicker td span, .ui-datepicker td.ui-datepicker-today a { background: #DDDDDD; color: #585858; }
+.ui-datepicker td span, .ui-datepicker td.ui-datepicker-current-day a { background: #376ea6; color: #ffffff; }
+/* -----------------------------------------------------------
+	jquery ui -> datepicker / multiple calenders
+----------------------------------------------------------- */
+.ui-datepicker.ui-datepicker-multi { width:auto; }
+.ui-datepicker-multi .ui-datepicker-group { float:left; }
+.ui-datepicker-multi .ui-datepicker-group table { width:95%; margin:0 auto .4em; }
+.ui-datepicker-multi-2 .ui-datepicker-group { width:50%; }
+.ui-datepicker-multi-3 .ui-datepicker-group { width:33.3%; }
+.ui-datepicker-multi-4 .ui-datepicker-group { width:25%; }
+.ui-datepicker-multi .ui-datepicker-group-last .ui-datepicker-header { border-left-width:0; }
+.ui-datepicker-multi .ui-datepicker-group-middle .ui-datepicker-header { border-left-width:0; }
+.ui-datepicker-multi .ui-datepicker-buttonpane { clear:left; }
+.ui-datepicker-row-break { clear:both; width:100%; }
+/* -----------------------------------------------------------
+	jquery ui -> datepicker / rtl support
+----------------------------------------------------------- */
+.ui-datepicker-rtl { direction: rtl; }
+.ui-datepicker-rtl .ui-datepicker-prev { right: 2px; left: auto; }
+.ui-datepicker-rtl .ui-datepicker-next { left: 2px; right: auto; }
+.ui-datepicker-rtl .ui-datepicker-prev:hover { right: 1px; left: auto; }
+.ui-datepicker-rtl .ui-datepicker-next:hover { left: 1px; right: auto; }
+.ui-datepicker-rtl .ui-datepicker-buttonpane { clear:right; }
+.ui-datepicker-rtl .ui-datepicker-buttonpane button { float: left; }
+.ui-datepicker-rtl .ui-datepicker-buttonpane button.ui-datepicker-current { float:right; }
+.ui-datepicker-rtl .ui-datepicker-group { float:right; }
+.ui-datepicker-rtl .ui-datepicker-group-last .ui-datepicker-header { border-right-width:0; border-left-width:1px; }
+.ui-datepicker-rtl .ui-datepicker-group-middle .ui-datepicker-header { border-right-width:0; border-left-width:1px; }
+/* -----------------------------------------------------------
+	jquery ui -> select styling
+----------------------------------------------------------- */
+
+.ui-selectmenu { display: block; position: relative; overflow: hidden; background: #ffffff; border-top: 1px solid #b3b3b3; border-left: 1px solid #b3b3b3; border-right: 1px solid #eaeaea; border-bottom: 1px solid #eaeaea; text-align: left; text-decoration: none; }
+.ui-selectmenu-icon { position:absolute; right:6px; margin-top:-8px; top: 50%; }
+.ui-selectmenu-menu { padding:0; margin:0; list-style:none; position:absolute; top: 0; visibility: hidden; overflow: auto; }
+.ui-selectmenu-open { background: #ffffff; border: 1px solid #666666; border-top: none; visibility: visible; }
+.ui-selectmenu-menu-popup { margin-top: -1px; }
+.ui-selectmenu-menu-dropdown { }
+.ui-selectmenu-menu li { padding:0; margin:0; display: block; border-top: 1px dotted transparent; border-bottom: 1px dotted transparent; border-right-width: 0 !important; border-left-width: 0 !important; }
+.ui-selectmenu-menu li a, .ui-selectmenu-status { line-height: 1.4em; display:block; padding: 5px 0 5px 8px; outline:none; text-decoration:none; color: #000000; }
+.ui-selectmenu-menu li.ui-selectmenu-hasIcon a, .ui-selectmenu-hasIcon .ui-selectmenu-status { margin-left: 5px; padding-left: 20px; position: relative; }
+.ui-selectmenu-menu li .ui-icon, .ui-selectmenu-status .ui-icon { position: absolute; top: 1em; margin-top: -8px; left: 0; }
+.ui-selectmenu-status { line-height: 1.4em; }
+.ui-selectmenu-open li.ui-selectmenu-item-focus { background: #376ea6; }
+.ui-selectmenu-open li.ui-selectmenu-item-focus a { color: #ffffff; }
+.ui-selectmenu-open li.ui-selectmenu-item-selected { background: #dfdfdf; }
+.ui-selectmenu-open li.ui-selectmenu-item-selected a { color: #000000; }
+.ui-selectmenu-menu li span, .ui-selectmenu-status span { display:block; margin-bottom: .2em; }
+.ui-selectmenu-menu .ui-selectmenu-group .ui-selectmenu-group-label { line-height: 1.4em; display:block; padding:.6em .5em 0; }
+.ui-selectmenu-menu .ui-selectmenu-group ul { margin: 0; padding: 0; }
+
+/* reset extra padding in firefox */
+.ui-button::-moz-focus-inner {
+border: 0;
+padding: 0;
+}
+/* -----------------------------------------------------------
+	jquery ui -> autocomplete
+----------------------------------------------------------- */
+
+.ui-autocomplete { margin: 0; padding: 0; list-style: none; position: absolute; background: #ffffff; border: 1px solid #666666; border-top: none; }
+.ui-autocomplete .ui-menu-item { margin: 0; padding: 0; }
+.ui-autocomplete .ui-menu-item a { margin: 0; padding: 8px; height: 1%; display: block; text-decoration: none; }
+.ui-autocomplete .ui-menu-item a:hover { background: #376ea6; color: #ffffff; }
+/* -----------------------------------------------------------
+	jquery ui -> dialog
+----------------------------------------------------------- */
+
+.ui-dialog { position: absolute; padding: 0; width: 300px; overflow: hidden; background: #ffffff; border: 1px solid #336699; }
+.ui-dialog .ui-dialog-titlebar { padding: 8px; position: relative; clear: both; overflow: hidden; background: #336699 url("../../resources/images/colors/blue/title.png") repeat-x; color: #ffffff; font-weight: bold; }
+.ui-dialog .ui-dialog-title { float: left; margin: .1em 16px .2em 0; }
+.ui-dialog .ui-dialog-titlebar-close { position: absolute; right: .3em; top: 50%; width: 19px; margin: -10px 0 0 0; padding: 1px; height: 18px; }
+.ui-dialog .ui-dialog-titlebar-close span { display: block; margin: 1px; }
+.ui-dialog .ui-dialog-titlebar-close:hover, .ui-dialog .ui-dialog-titlebar-close:focus { padding: 0; }
+.ui-dialog .ui-dialog-content { border: 0; padding: 15px; background: none; overflow: auto; }
+.ui-dialog .ui-dialog-buttonpane { text-align: left; background-image: none; margin: 0; padding: 10px 10px 15px 10px; clear: both; overflow: hidden; }
+.ui-dialog .ui-resizable-se { width: 14px; height: 14px; right: 3px; bottom: 3px; }
+.ui-draggable .ui-dialog-titlebar { cursor: move; }
+.ui-dialog p { margin: 0; padding: 0 0 10px 0; color: #5f5f5f; font-size: 11px; line-height: 150%; }
+.ui-dialog .ui-dialog-buttonpane button { margin: 0 6px 0 0; float: right; color: #000000; font-family: Lucida Grande, Verdana, Lucida Sans Regular, Lucida Sans Unicode, Arial, sans-serif; font-size: 11px; font-weight: bold; cursor: pointer; }
+.ui-dialog .ui-dialog-buttonpane .ui-state-default { padding: 6px 12px 6px 12px; background: #e5e3e3 url(../images/layout/button.png) repeat-x; border-top: 1px solid #DDDDDD; border-left: 1px solid #c6c6c6; border-right: 1px solid #DDDDDD; border-bottom: 1px solid #c6c6c6; color: #515151; outline: none; }
+.ui-dialog .ui-dialog-buttonpane .ui-state-hover { padding: 6px 12px 6px 12px; background: #b4b4b4 url(../images/layout/button_selected.png) repeat-x; border-top: 1px solid #cccccc; border-left: 1px solid #bebebe; border-right: 1px solid #b1b1b1; border-bottom: 1px solid #afafaf; color: #515151; outline: none; }
+/*table*/
+table.aroom_table { margin-bottom:10px; padding: 0; width: 98%; border-collapse: collapse;  border-left: 1px solid #cdcdcd; border-top: 1px solid #cdcdcd; }
+table.aroom_table th { padding: 10px; background: #eeeeee; border-right: 1px solid #cdcdcd; border-bottom: 1px solid #cdcdcd;font-weight: bold; text-align:center }
+table.aroom_table th.last { border-right: none; }
+table.aroom_table th.left { text-align: left; }
+table.aroom_table th.right { text-align: right; }
+table.aroom_table th.center { text-align: center; }
+table.aroom_table th.selected { padding: 0; vertical-align: middle; }
+table.aroom_table th.selected input { margin: 0; }
+table.aroom_table td { padding: 5px; background: #ffffff; border-right: 1px solid #cdcdcd; border-bottom: 1px solid #cdcdcd; }
+table.aroom_table td.last { border-right: none; }
+table.aroom_table tr.selected td { background: #FFFFCC; }
+table.aroom_table td.selected { padding: 0; text-align: center; vertical-align: middle; }
+table.aroom_table td.selected input { margin: 0; }
+table.aroom_table td.title { text-align: left; }
+table.aroom_table td.price {  text-align: center; }
+table.aroom_table td.date { text-align: center; }
+table.aroom_table td.category {  text-align: center; }
+/*title*/
+div.title{clear: both;margin: 0 0 20px;overflow: hidden;padding: 0; background:#00A0E9}
+div.title h5{border: medium none;color: #FFFFFF;float: left;margin: 0;padding:10px 0 10px 10px;font-size: 14px; font-weight:bold}
+div.title ul.links {float: right;margin: 0;padding: 0;}
+div.title ul.links li {float: left;list-style: none outside none;margin: 0;padding: 0; font-size:12px}
+div.title ul.links li a {color: #BFE3FF;border-left: 1px solid #0081CC;display: block;float: left;font-size: 12px;font-weight: bold;height: 1%;margin: 0;padding:10px 16px 10px;text-decoration: none;}
+div.title ul.links li.on a{ background: url(../images/layout/title_tab_selected.png) no-repeat scroll center bottom transparent;}
+/*delete*/
+a.edit-contact, a.delete-contact {
+    border-radius: 2px 2px 2px 2px;
+    float: left;
+    height: 17px;
+    line-height: 14px;
+    margin: 0 5px 5px 0;
+    padding: 3px 5px 1px;
+    text-decoration: none;
+}
+.gradient-btn{	background-position: 0% 0%;
+    color:#555;	    border:1px solid #ccc;	/* fallback color */        -ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#ffffff, endColorstr=#efefef)";
+    cursor: pointer;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#ffffff),to(#efefef));
+    background-color: #efefef;
+    background-repeat: repeat;
+    background-attachment: scroll;
+}
+.gradient-btn:hover{	background-position: 0% 0%;
+    color:#fff;	    border:1px solid #444;	/* fallback color */        -ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#777777, endColorstr=#555555)";
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#777777),to(#555555));
+    background-color: #777777;
+    background-repeat: repeat;
+    background-attachment: scroll;
+}
+/**/
+.ui-helper-reset { margin: 0; padding: 0; border: 0; outline: 0; line-height: 1.3; text-decoration: none; font-size: 100%; list-style: none; }
+.ui-accordion .ui-accordion-header { cursor: pointer; position: relative; margin-top: 1px; zoom: 1; }
+.ui-accordion .ui-accordion-li-fix { display: inline; }
+.ui-accordion .ui-accordion-header-active { border-bottom: 0 !important; }
+.ui-accordion .ui-accordion-header a { display: block; font-size: 1em; padding: .5em .5em .5em 2.2em; }
+.ui-accordion .ui-accordion-header .ui-icon { position: absolute; left: .5em; top: 50%; margin-top: -8px; }
+.ui-accordion .ui-accordion-content { padding: 1em 2.2em; border-top: 0; margin-top: -2px; position: relative; top: 1px; margin-bottom: 2px; overflow: auto; display: none; }
+.ui-accordion .ui-accordion-content-active { display: block; }
+.ui-state-active, .ui-widget-content .ui-state-active { border: 1px solid #258cd1; background: #258cd1; font-weight: bold; color: #ffffff; outline: none; }
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited { color: #ffffff; outline: none; text-decoration: none; }
+.ui-widget-content { border: 1px solid #e1e1e1; background: #ffffff; color: #333333; }
+.ui-state-default, .ui-widget-content .ui-state-default { border: 1px solid #e1e1e1; background: #f6f6f6 ; font-weight: bold; color: #1c94c4; outline: none; }
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited { color: #1c94c4; text-decoration: none; outline: none; }
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus { border: 1px solid #258cd1; background: #fdf5ce; font-weight: bold; color: #258cd1; outline: none; }
+.ui-state-hover a, .ui-state-hover a:hover { color: #258cd1; text-decoration: none; outline: none; }
+.ui-state-active, .ui-widget-content .ui-state-active { border: 1px solid #258cd1; background: #258cd1; font-weight: bold; color: #ffffff; outline: none; }
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited { color: #ffffff; outline: none; text-decoration: none; }
+

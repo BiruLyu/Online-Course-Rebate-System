@@ -1,0 +1,63 @@
+C:\Course_Registration_Sys\DAL\bin\Debug\DAL.dll
+C:\Course_Registration_Sys\DAL\bin\Debug\DAL.pdb
+C:\Course_Registration_Sys\DAL\bin\Debug\DBUtility.dll
+C:\Course_Registration_Sys\DAL\bin\Debug\Model.dll
+C:\Course_Registration_Sys\DAL\bin\Debug\DBUtility.pdb
+C:\Course_Registration_Sys\DAL\bin\Debug\Model.pdb
+C:\Course_Registration_Sys\DAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Course_Registration_Sys\DAL\obj\Debug\DAL.dll
+C:\Course_Registration_Sys\DAL\obj\Debug\DAL.pdb
+D:\Users\Hank\Documents\Visual Studio 2010\Projects\Course_Registration_Sys\DAL\bin\Debug\DAL.dll
+D:\Users\Hank\Documents\Visual Studio 2010\Projects\Course_Registration_Sys\DAL\bin\Debug\DAL.pdb
+D:\Users\Hank\Documents\Visual Studio 2010\Projects\Course_Registration_Sys\DAL\bin\Debug\DBUtility.dll
+D:\Users\Hank\Documents\Visual Studio 2010\Projects\Course_Registration_Sys\DAL\bin\Debug\Model.dll
+D:\Users\Hank\Documents\Visual Studio 2010\Projects\Course_Registration_Sys\DAL\bin\Debug\DBUtility.pdb
+D:\Users\Hank\Documents\Visual Studio 2010\Projects\Course_Registration_Sys\DAL\bin\Debug\Model.pdb
+D:\Users\Hank\Documents\Visual Studio 2010\Projects\Course_Registration_Sys\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\Users\Hank\Documents\Visual Studio 2010\Projects\Course_Registration_Sys\DAL\obj\Debug\DAL.dll
+D:\Users\Hank\Documents\Visual Studio 2010\Projects\Course_Registration_Sys\DAL\obj\Debug\DAL.pdb
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\Course_Registration_Sys\DAL\bin\Debug\DAL.dll
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\Course_Registration_Sys\DAL\bin\Debug\DAL.pdb
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\Course_Registration_Sys\DAL\bin\Debug\DBUtility.dll
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\Course_Registration_Sys\DAL\bin\Debug\Model.dll
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\Course_Registration_Sys\DAL\bin\Debug\DBUtility.pdb
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\Course_Registration_Sys\DAL\bin\Debug\Model.pdb
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\Course_Registration_Sys\DAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\Course_Registration_Sys\DAL\obj\Debug\DAL.dll
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\Course_Registration_Sys\DAL\obj\Debug\DAL.pdb
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\Course_Registration_Sys_My03\DAL\bin\Debug\DAL.dll
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\Course_Registration_Sys_My03\DAL\bin\Debug\DAL.pdb
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\Course_Registration_Sys_My03\DAL\bin\Debug\DBUtility.dll
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\Course_Registration_Sys_My03\DAL\bin\Debug\Model.dll
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\Course_Registration_Sys_My03\DAL\bin\Debug\DBUtility.pdb
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\Course_Registration_Sys_My03\DAL\bin\Debug\Model.pdb
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\Course_Registration_Sys_My03\DAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\Course_Registration_Sys_My03\DAL\obj\Debug\DAL.dll
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\Course_Registration_Sys_My03\DAL\obj\Debug\DAL.pdb
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\Course_Registration_Sys_My03 - 副本\DAL\bin\Debug\DAL.dll
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\Course_Registration_Sys_My03 - 副本\DAL\bin\Debug\DAL.pdb
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\Course_Registration_Sys_My03 - 副本\DAL\bin\Debug\DBUtility.dll
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\Course_Registration_Sys_My03 - 副本\DAL\bin\Debug\Model.dll
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\Course_Registration_Sys_My03 - 副本\DAL\bin\Debug\DBUtility.pdb
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\Course_Registration_Sys_My03 - 副本\DAL\bin\Debug\Model.pdb
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\Course_Registration_Sys_My03 - 副本\DAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\Course_Registration_Sys_My03 - 副本\DAL\obj\Debug\DAL.dll
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\Course_Registration_Sys_My03 - 副本\DAL\obj\Debug\DAL.pdb
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\Course_Registration_Sys_My04\DAL\bin\Debug\DAL.dll
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\Course_Registration_Sys_My04\DAL\bin\Debug\DAL.pdb
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\Course_Registration_Sys_My04\DAL\bin\Debug\DBUtility.dll
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\Course_Registration_Sys_My04\DAL\bin\Debug\Model.dll
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\Course_Registration_Sys_My04\DAL\bin\Debug\DBUtility.pdb
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\Course_Registration_Sys_My04\DAL\bin\Debug\Model.pdb
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\Course_Registration_Sys_My04\DAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\Course_Registration_Sys_My04\DAL\obj\Debug\DAL.dll
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\Course_Registration_Sys_My04\DAL\obj\Debug\DAL.pdb
+\\psf\Home\Documents\Visual Studio 2010\Projects\MySystemWeb\DAL\bin\Debug\DAL.dll
+\\psf\Home\Documents\Visual Studio 2010\Projects\MySystemWeb\DAL\bin\Debug\DAL.pdb
+\\psf\Home\Documents\Visual Studio 2010\Projects\MySystemWeb\DAL\bin\Debug\DBUtility.dll
+\\psf\Home\Documents\Visual Studio 2010\Projects\MySystemWeb\DAL\bin\Debug\Model.dll
+\\psf\Home\Documents\Visual Studio 2010\Projects\MySystemWeb\DAL\bin\Debug\DBUtility.pdb
+\\psf\Home\Documents\Visual Studio 2010\Projects\MySystemWeb\DAL\bin\Debug\Model.pdb
+\\psf\Home\Documents\Visual Studio 2010\Projects\MySystemWeb\DAL\obj\Debug\ResolveAssemblyReference.cache
+\\psf\Home\Documents\Visual Studio 2010\Projects\MySystemWeb\DAL\obj\Debug\DAL.dll
+\\psf\Home\Documents\Visual Studio 2010\Projects\MySystemWeb\DAL\obj\Debug\DAL.pdb

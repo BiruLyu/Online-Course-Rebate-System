@@ -1,0 +1,704 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{63412DC9-6BD4-4977-BFB9-3AA5095D97A3}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MySystemWeb</RootNamespace>
+    <AssemblyName>MySystemWeb</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\DAL.dll" />
+    <Content Include="bin\DAL.pdb" />
+    <Content Include="bin\DBUtility.dll" />
+    <Content Include="bin\DBUtility.pdb" />
+    <Content Include="bin\Model.dll" />
+    <Content Include="bin\Model.pdb" />
+    <Content Include="bin\MySystem.dll" />
+    <Content Include="bin\MySystem.pdb" />
+    <Content Include="My97DatePicker\calendar.js" />
+    <Content Include="My97DatePicker\lang\en.js" />
+    <Content Include="My97DatePicker\lang\zh-cn.js" />
+    <Content Include="My97DatePicker\lang\zh-tw.js" />
+    <Content Include="My97DatePicker\skin\datePicker.gif" />
+    <Content Include="My97DatePicker\skin\default\datepicker.css" />
+    <Content Include="My97DatePicker\skin\default\img.gif" />
+    <Content Include="My97DatePicker\skin\WdatePicker.css" />
+    <Content Include="My97DatePicker\skin\whyGreen\bg.jpg" />
+    <Content Include="My97DatePicker\skin\whyGreen\datepicker.css" />
+    <Content Include="My97DatePicker\skin\whyGreen\img.gif" />
+    <Content Include="My97DatePicker\WdatePicker.js" />
+    <Content Include="obj\Debug\Course_Registration_Sys.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\MySystem.dll" />
+    <Content Include="obj\Debug\MySystem.pdb" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="uAdmin\AdminLogin.aspx" />
+    <Content Include="uAdmin\ajax\basic_coursedel.aspx" />
+    <Content Include="uAdmin\ajax\checkbasiccourse.aspx" />
+    <Content Include="uAdmin\ajax\checkdetailcourse.aspx" />
+    <Content Include="uAdmin\ajax\checkexam.aspx" />
+    <Content Include="uAdmin\ajax\checklogin.aspx" />
+    <Content Include="uAdmin\ajax\checkordernum.aspx" />
+    <Content Include="uAdmin\ajax\checkstudent.aspx" />
+    <Content Include="uAdmin\ajax\checkusername.aspx" />
+    <Content Include="uAdmin\ajax\clerkdel.aspx" />
+    <Content Include="uAdmin\ajax\detail_coursedel.aspx" />
+    <Content Include="uAdmin\ajax\getarea.aspx" />
+    <Content Include="uAdmin\ajax\getbasic_course.aspx" />
+    <Content Include="uAdmin\ajax\getcity.aspx" />
+    <Content Include="uAdmin\ajax\getdetail_course.aspx" />
+    <Content Include="uAdmin\ajax\getprovince.aspx" />
+    <Content Include="uAdmin\ajax\getservice.aspx" />
+    <Content Include="uAdmin\ajax\getsubordinate_course.aspx" />
+    <Content Include="uAdmin\ajax\orderdel.aspx" />
+    <Content Include="uAdmin\ajax\payclerk.aspx" />
+    <Content Include="uAdmin\ajax\payservice.aspx" />
+    <Content Include="uAdmin\ajax\paystudent.aspx" />
+    <Content Include="uAdmin\ajax\userdel.aspx" />
+    <Content Include="uAdmin\Attendance.aspx" />
+    <Content Include="uAdmin\BasicCourseAdd.aspx" />
+    <Content Include="uAdmin\BasicCourseEdit.aspx" />
+    <Content Include="uAdmin\BasicCourseList.aspx" />
+    <Content Include="uAdmin\ClerkAdd.aspx" />
+    <Content Include="uAdmin\ClerkEdit.aspx" />
+    <Content Include="uAdmin\ClerkList.aspx" />
+    <Content Include="uAdmin\css\aspnetpager.css" />
+    <Content Include="uAdmin\css\datePicker.css" />
+    <Content Include="uAdmin\css\Default.css" />
+    <Content Include="uAdmin\css\main.css" />
+    <Content Include="uAdmin\css\reset.css" />
+    <Content Include="uAdmin\css\style.css" />
+    <Content Include="uAdmin\css\tabber.css" />
+    <Content Include="uAdmin\css\User_Login.css" />
+    <Content Include="uAdmin\css\xtree.css" />
+    <Content Include="uAdmin\DetailCourseAdd.aspx" />
+    <Content Include="uAdmin\DetailCourseEdit.aspx" />
+    <Content Include="uAdmin\DetailCourseList.aspx" />
+    <Content Include="uAdmin\Error.aspx" />
+    <Content Include="uAdmin\images\admin-logo.png" />
+    <Content Include="uAdmin\images\admin-logo_n.png" />
+    <Content Include="uAdmin\images\bg_01.jpg" />
+    <Content Include="uAdmin\images\bg_02.jpg" />
+    <Content Include="uAdmin\images\bg_03.jpg" />
+    <Content Include="uAdmin\images\bg_04.jpg" />
+    <Content Include="uAdmin\images\bg_05.jpg" />
+    <Content Include="uAdmin\images\bg_06.jpg" />
+    <Content Include="uAdmin\images\icon.png" />
+    <Content Include="uAdmin\images\icons\bin.png" />
+    <Content Include="uAdmin\images\icons\box.png" />
+    <Content Include="uAdmin\images\icons\broom.png" />
+    <Content Include="uAdmin\images\icons\button_browse.png" />
+    <Content Include="uAdmin\images\icons\button_browse_selected.png" />
+    <Content Include="uAdmin\images\icons\calendar.png" />
+    <Content Include="uAdmin\images\icons\card_address.png" />
+    <Content Include="uAdmin\images\icons\clock.png" />
+    <Content Include="uAdmin\images\icons\cross.png" />
+    <Content Include="uAdmin\images\icons\cross_circle.png" />
+    <Content Include="uAdmin\images\icons\cross_small.png" />
+    <Content Include="uAdmin\images\icons\database.png" />
+    <Content Include="uAdmin\images\icons\disk_black.png" />
+    <Content Include="uAdmin\images\icons\exclamation.png" />
+    <Content Include="uAdmin\images\icons\folder_open_document_text.png" />
+    <Content Include="uAdmin\images\icons\information.png" />
+    <Content Include="uAdmin\images\icons\lifebuoy.png" />
+    <Content Include="uAdmin\images\icons\lock.png" />
+    <Content Include="uAdmin\images\icons\pencil.png" />
+    <Content Include="uAdmin\images\icons\switch.png" />
+    <Content Include="uAdmin\images\icons\tick_circle.png" />
+    <Content Include="uAdmin\images\icons\ui-icons_222222_256x240.png" />
+    <Content Include="uAdmin\images\icons\ui-icons_ef8c08_256x240.png" />
+    <Content Include="uAdmin\images\icon_baidu.jpg" />
+    <Content Include="uAdmin\images\icon_bbs.jpg" />
+    <Content Include="uAdmin\images\icon_bjg.jpg" />
+    <Content Include="uAdmin\images\icon_buy.jpg" />
+    <Content Include="uAdmin\images\icon_cd.jpg" />
+    <Content Include="uAdmin\images\icon_day.jpg" />
+    <Content Include="uAdmin\images\icon_deh.jpg" />
+    <Content Include="uAdmin\images\icon_diandian.jpg" />
+    <Content Include="uAdmin\images\icon_douban.jpg" />
+    <Content Include="uAdmin\images\icon_dz.jpg" />
+    <Content Include="uAdmin\images\icon_gb.jpg" />
+    <Content Include="uAdmin\images\icon_google.jpg" />
+    <Content Include="uAdmin\images\icon_hr.jpg" />
+    <Content Include="uAdmin\images\icon_hujiang.jpg" />
+    <Content Include="uAdmin\images\icon_ichacha.jpg" />
+    <Content Include="uAdmin\images\icon_igimu.jpg" />
+    <Content Include="uAdmin\images\icon_kachiusha.jpg" />
+    <Content Include="uAdmin\images\icon_kaixin001.jpg" />
+    <Content Include="uAdmin\images\icon_ks.jpg" />
+    <Content Include="uAdmin\images\icon_ky.jpg" />
+    <Content Include="uAdmin\images\icon_ld.jpg" />
+    <Content Include="uAdmin\images\icon_lesha.jpg" />
+    <Content Include="uAdmin\images\icon_mask.png" />
+    <Content Include="uAdmin\images\icon_mop.jpg" />
+    <Content Include="uAdmin\images\icon_mp3.jpg" />
+    <Content Include="uAdmin\images\icon_mp3.png" />
+    <Content Include="uAdmin\images\icon_qiyi.jpg" />
+    <Content Include="uAdmin\images\icon_qq_t.jpg" />
+    <Content Include="uAdmin\images\icon_qw.jpg" />
+    <Content Include="uAdmin\images\icon_renren.jpg" />
+    <Content Include="uAdmin\images\icon_rsj.jpg" />
+    <Content Include="uAdmin\images\icon_rusnews.jpg" />
+    <Content Include="uAdmin\images\icon_sinat.jpg" />
+    <Content Include="uAdmin\images\icon_sx.jpg" />
+    <Content Include="uAdmin\images\icon_tianya.jpg" />
+    <Content Include="uAdmin\images\icon_tudou.jpg" />
+    <Content Include="uAdmin\images\icon_tv.jpg" />
+    <Content Include="uAdmin\images\icon_tv.png" />
+    <Content Include="uAdmin\images\icon_tw.jpg" />
+    <Content Include="uAdmin\images\icon_tw.png" />
+    <Content Include="uAdmin\images\icon_yandex.jpg" />
+    <Content Include="uAdmin\images\icon_youku.jpg" />
+    <Content Include="uAdmin\images\icon_zhihu.jpg" />
+    <Content Include="uAdmin\images\icon_zybz.jpg" />
+    <Content Include="uAdmin\images\icon——xl.png" />
+    <Content Include="uAdmin\images\layout\admin-logo_n.png" />
+    <Content Include="uAdmin\images\layout\bg_left.gif" />
+    <Content Include="uAdmin\images\layout\bg_top1.jpg" />
+    <Content Include="uAdmin\images\layout\bg_top2.gif" />
+    <Content Include="uAdmin\images\layout\button.png" />
+    <Content Include="uAdmin\images\layout\button_highlight.png" />
+    <Content Include="uAdmin\images\layout\button_highlight_selected.png" />
+    <Content Include="uAdmin\images\layout\button_selected.png" />
+    <Content Include="uAdmin\images\layout\cross_circle.png" />
+    <Content Include="uAdmin\images\layout\highlight_blue.gif" />
+    <Content Include="uAdmin\images\layout\logo_top.png" />
+    <Content Include="uAdmin\images\layout\pager.png" />
+    <Content Include="uAdmin\images\layout\pager_selected.png" />
+    <Content Include="uAdmin\images\layout\tab_active_left.png" />
+    <Content Include="uAdmin\images\layout\tab_active_right.png" />
+    <Content Include="uAdmin\images\layout\tab_inactive_left.png" />
+    <Content Include="uAdmin\images\layout\tab_inactive_right.png" />
+    <Content Include="uAdmin\images\layout\title_tab_selected.png" />
+    <Content Include="uAdmin\images\login24.png" />
+    <Content Include="uAdmin\images\msg_bg.png" />
+    <Content Include="uAdmin\images\turn_arrow.png" />
+    <Content Include="uAdmin\images\user_all_bg.gif" />
+    <Content Include="uAdmin\images\user_bottom_c.gif" />
+    <Content Include="uAdmin\images\user_bottom_l.gif" />
+    <Content Include="uAdmin\images\user_bottom_r.gif" />
+    <Content Include="uAdmin\images\user_botton.gif" />
+    <Content Include="uAdmin\images\user_login_name.gif" />
+    <Content Include="uAdmin\images\user_login_password.gif" />
+    <Content Include="uAdmin\images\user_login_validatecode.gif" />
+    <Content Include="uAdmin\images\user_main_c.gif" />
+    <Content Include="uAdmin\images\user_main_l.gif" />
+    <Content Include="uAdmin\images\user_main_r.gif" />
+    <Content Include="uAdmin\images\user_top_c.gif" />
+    <Content Include="uAdmin\images\user_top_l.gif" />
+    <Content Include="uAdmin\images\user_top_r.gif" />
+    <Content Include="uAdmin\js\jquery-1.6.4.min.js" />
+    <Content Include="uAdmin\js\jquery-ui-1.8.16.custom.min.js" />
+    <Content Include="uAdmin\js\jquery.min.js" />
+    <Content Include="uAdmin\js\jquery.ui.selectmenu.js" />
+    <Content Include="uAdmin\js\script.js" />
+    <Content Include="uAdmin\js\smooth.form.js" />
+    <Content Include="uAdmin\js\tiny_mce.js" />
+    <Content Include="uAdmin\LoginOut.aspx" />
+    <Content Include="uAdmin\Main.aspx" />
+    <Content Include="uAdmin\ModPwd.aspx" />
+    <Content Include="uAdmin\OrderAdd.aspx" />
+    <Content Include="uAdmin\OrderEdit.aspx" />
+    <Content Include="uAdmin\OrderList.aspx" />
+    <Content Include="uAdmin\PayClerk.aspx" />
+    <Content Include="uAdmin\PayService1.aspx" />
+    <Content Include="uAdmin\PayService2.aspx" />
+    <Content Include="uAdmin\PayService3.aspx" />
+    <Content Include="uAdmin\PayStudent.aspx" />
+    <Content Include="uAdmin\RepeateError.aspx" />
+    <Content Include="uAdmin\ServiceAdd.aspx" />
+    <Content Include="uAdmin\ServiceEdit.aspx" />
+    <Content Include="uAdmin\ServiceList.aspx" />
+    <Content Include="uAdmin\StudentAdd.aspx" />
+    <Content Include="uAdmin\StudentEdit.aspx" />
+    <Content Include="uAdmin\StudentList.aspx" />
+    <Content Include="uAdmin\UserAdd.aspx" />
+    <Content Include="uAdmin\UserList.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="uAdmin\AdminLogin.aspx.cs">
+      <DependentUpon>AdminLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uAdmin\AdminLogin.aspx.designer.cs">
+      <DependentUpon>AdminLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="uAdmin\ajax\basic_coursedel.aspx.cs">
+      <DependentUpon>basic_coursedel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uAdmin\ajax\basic_coursedel.aspx.designer.cs">
+      <DependentUpon>basic_coursedel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="uAdmin\ajax\checkbasiccourse.aspx.cs">
+      <DependentUpon>checkbasiccourse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uAdmin\ajax\checkbasiccourse.aspx.designer.cs">
+      <DependentUpon>checkbasiccourse.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="uAdmin\ajax\checkdetailcourse.aspx.cs">
+      <DependentUpon>checkdetailcourse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uAdmin\ajax\checkdetailcourse.aspx.designer.cs">
+      <DependentUpon>checkdetailcourse.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="uAdmin\ajax\checkexam.aspx.cs">
+      <DependentUpon>checkexam.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uAdmin\ajax\checkexam.aspx.designer.cs">
+      <DependentUpon>checkexam.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="uAdmin\ajax\checklogin.aspx.cs">
+      <DependentUpon>checklogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uAdmin\ajax\checklogin.aspx.designer.cs">
+      <DependentUpon>checklogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="uAdmin\ajax\checkordernum.aspx.cs">
+      <DependentUpon>checkordernum.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uAdmin\ajax\checkordernum.aspx.designer.cs">
+      <DependentUpon>checkordernum.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="uAdmin\ajax\checkstudent.aspx.cs">
+      <DependentUpon>checkstudent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uAdmin\ajax\checkstudent.aspx.designer.cs">
+      <DependentUpon>checkstudent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="uAdmin\ajax\checkusername.aspx.cs">
+      <DependentUpon>checkusername.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uAdmin\ajax\checkusername.aspx.designer.cs">
+      <DependentUpon>checkusername.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="uAdmin\ajax\clerkdel.aspx.cs">
+      <DependentUpon>clerkdel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uAdmin\ajax\clerkdel.aspx.designer.cs">
+      <DependentUpon>clerkdel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="uAdmin\ajax\detail_coursedel.aspx.cs">
+      <DependentUpon>detail_coursedel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uAdmin\ajax\detail_coursedel.aspx.designer.cs">
+      <DependentUpon>detail_coursedel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="uAdmin\ajax\getarea.aspx.cs">
+      <DependentUpon>getarea.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uAdmin\ajax\getarea.aspx.designer.cs">
+      <DependentUpon>getarea.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="uAdmin\ajax\getbasic_course.aspx.cs">
+      <DependentUpon>getbasic_course.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uAdmin\ajax\getbasic_course.aspx.designer.cs">
+      <DependentUpon>getbasic_course.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="uAdmin\ajax\getcity.aspx.cs">
+      <DependentUpon>getcity.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uAdmin\ajax\getcity.aspx.designer.cs">
+      <DependentUpon>getcity.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="uAdmin\ajax\getdetail_course.aspx.cs">
+      <DependentUpon>getdetail_course.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uAdmin\ajax\getdetail_course.aspx.designer.cs">
+      <DependentUpon>getdetail_course.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="uAdmin\ajax\getprovince.aspx.cs">
+      <DependentUpon>getprovince.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uAdmin\ajax\getprovince.aspx.designer.cs">
+      <DependentUpon>getprovince.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="uAdmin\ajax\getservice.aspx.cs">
+      <DependentUpon>getservice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uAdmin\ajax\getservice.aspx.designer.cs">
+      <DependentUpon>getservice.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="uAdmin\ajax\getsubordinate_course.aspx.cs">
+      <DependentUpon>getsubordinate_course.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uAdmin\ajax\getsubordinate_course.aspx.designer.cs">
+      <DependentUpon>getsubordinate_course.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="uAdmin\ajax\orderdel.aspx.cs">
+      <DependentUpon>orderdel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uAdmin\ajax\orderdel.aspx.designer.cs">
+      <DependentUpon>orderdel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="uAdmin\ajax\payclerk.aspx.cs">
+      <DependentUpon>payclerk.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uAdmin\ajax\payclerk.aspx.designer.cs">
+      <DependentUpon>payclerk.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="uAdmin\ajax\payservice.aspx.cs">
+      <DependentUpon>payservice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uAdmin\ajax\payservice.aspx.designer.cs">
+      <DependentUpon>payservice.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="uAdmin\ajax\paystudent.aspx.cs">
+      <DependentUpon>paystudent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uAdmin\ajax\paystudent.aspx.designer.cs">
+      <DependentUpon>paystudent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="uAdmin\ajax\userdel.aspx.cs">
+      <DependentUpon>userdel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uAdmin\ajax\userdel.aspx.designer.cs">
+      <DependentUpon>userdel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="uAdmin\Attendance.aspx.cs">
+      <DependentUpon>Attendance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uAdmin\Attendance.aspx.designer.cs">
+      <DependentUpon>Attendance.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="uAdmin\BasicCourseAdd.aspx.cs">
+      <DependentUpon>BasicCourseAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uAdmin\BasicCourseAdd.aspx.designer.cs">
+      <DependentUpon>BasicCourseAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="uAdmin\BasicCourseEdit.aspx.cs">
+      <DependentUpon>BasicCourseEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uAdmin\BasicCourseEdit.aspx.designer.cs">
+      <DependentUpon>BasicCourseEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="uAdmin\BasicCourseList.aspx.cs">
+      <DependentUpon>BasicCourseList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uAdmin\BasicCourseList.aspx.designer.cs">
+      <DependentUpon>BasicCourseList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="uAdmin\ClerkAdd.aspx.cs">
+      <DependentUpon>ClerkAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uAdmin\ClerkAdd.aspx.designer.cs">
+      <DependentUpon>ClerkAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="uAdmin\ClerkEdit.aspx.cs">
+      <DependentUpon>ClerkEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uAdmin\ClerkEdit.aspx.designer.cs">
+      <DependentUpon>ClerkEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="uAdmin\ClerkList.aspx.cs">
+      <DependentUpon>ClerkList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uAdmin\ClerkList.aspx.designer.cs">
+      <DependentUpon>ClerkList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="uAdmin\DetailCourseAdd.aspx.cs">
+      <DependentUpon>DetailCourseAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uAdmin\DetailCourseAdd.aspx.designer.cs">
+      <DependentUpon>DetailCourseAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="uAdmin\DetailCourseEdit.aspx.cs">
+      <DependentUpon>DetailCourseEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uAdmin\DetailCourseEdit.aspx.designer.cs">
+      <DependentUpon>DetailCourseEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="uAdmin\DetailCourseList.aspx.cs">
+      <DependentUpon>DetailCourseList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uAdmin\DetailCourseList.aspx.designer.cs">
+      <DependentUpon>DetailCourseList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="uAdmin\Error.aspx.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uAdmin\Error.aspx.designer.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="uAdmin\LoginOut.aspx.cs">
+      <DependentUpon>LoginOut.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uAdmin\LoginOut.aspx.designer.cs">
+      <DependentUpon>LoginOut.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="uAdmin\Main.aspx.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uAdmin\Main.aspx.designer.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="uAdmin\ModPwd.aspx.cs">
+      <DependentUpon>ModPwd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uAdmin\ModPwd.aspx.designer.cs">
+      <DependentUpon>ModPwd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="uAdmin\OrderAdd.aspx.cs">
+      <DependentUpon>OrderAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uAdmin\OrderAdd.aspx.designer.cs">
+      <DependentUpon>OrderAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="uAdmin\OrderEdit.aspx.cs">
+      <DependentUpon>OrderEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uAdmin\OrderEdit.aspx.designer.cs">
+      <DependentUpon>OrderEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="uAdmin\OrderList.aspx.cs">
+      <DependentUpon>OrderList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uAdmin\OrderList.aspx.designer.cs">
+      <DependentUpon>OrderList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="uAdmin\PayClerk.aspx.cs">
+      <DependentUpon>PayClerk.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uAdmin\PayClerk.aspx.designer.cs">
+      <DependentUpon>PayClerk.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="uAdmin\PayService1.aspx.cs">
+      <DependentUpon>PayService1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uAdmin\PayService1.aspx.designer.cs">
+      <DependentUpon>PayService1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="uAdmin\PayService2.aspx.cs">
+      <DependentUpon>PayService2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uAdmin\PayService2.aspx.designer.cs">
+      <DependentUpon>PayService2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="uAdmin\PayService3.aspx.cs">
+      <DependentUpon>PayService3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uAdmin\PayService3.aspx.designer.cs">
+      <DependentUpon>PayService3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="uAdmin\PayStudent.aspx.cs">
+      <DependentUpon>PayStudent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uAdmin\PayStudent.aspx.designer.cs">
+      <DependentUpon>PayStudent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="uAdmin\RepeateError.aspx.cs">
+      <DependentUpon>RepeateError.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uAdmin\RepeateError.aspx.designer.cs">
+      <DependentUpon>RepeateError.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="uAdmin\ServiceAdd.aspx.cs">
+      <DependentUpon>ServiceAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uAdmin\ServiceAdd.aspx.designer.cs">
+      <DependentUpon>ServiceAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="uAdmin\ServiceEdit.aspx.cs">
+      <DependentUpon>ServiceEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uAdmin\ServiceEdit.aspx.designer.cs">
+      <DependentUpon>ServiceEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="uAdmin\ServiceList.aspx.cs">
+      <DependentUpon>ServiceList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uAdmin\ServiceList.aspx.designer.cs">
+      <DependentUpon>ServiceList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="uAdmin\StudentAdd.aspx.cs">
+      <DependentUpon>StudentAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uAdmin\StudentAdd.aspx.designer.cs">
+      <DependentUpon>StudentAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="uAdmin\StudentEdit.aspx.cs">
+      <DependentUpon>StudentEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uAdmin\StudentEdit.aspx.designer.cs">
+      <DependentUpon>StudentEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="uAdmin\StudentList.aspx.cs">
+      <DependentUpon>StudentList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uAdmin\StudentList.aspx.designer.cs">
+      <DependentUpon>StudentList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="uAdmin\UserAdd.aspx.cs">
+      <DependentUpon>UserAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uAdmin\UserAdd.aspx.designer.cs">
+      <DependentUpon>UserAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="uAdmin\UserList.aspx.cs">
+      <DependentUpon>UserList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uAdmin\UserList.aspx.designer.cs">
+      <DependentUpon>UserList.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="obj\Debug\Course_Registration_Sys.csprojResolveAssemblyReference.cache" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\ResolveAssemblyReference.cache" />
+    <None Include="uAdmin\images\Thumbs.db" />
+    <Content Include="uAdmin\Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="obj\Debug\Package\" />
+    <Folder Include="obj\Debug\TempPE\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{A89C0050-831F-42CB-B7A3-2AF54AD31398}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DBUtility\DBUtility.csproj">
+      <Project>{E4AE7E13-EC9C-4F87-9823-CC3DE4B5D219}</Project>
+      <Name>DBUtility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{C3FBE220-500C-4A5D-937F-C7F8F5D66812}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>6701</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

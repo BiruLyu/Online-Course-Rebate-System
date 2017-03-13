@@ -1,0 +1,19 @@
+C:\Course_Registration_Sys\DBUtility\bin\Debug\DBUtility.dll
+C:\Course_Registration_Sys\DBUtility\bin\Debug\DBUtility.pdb
+C:\Course_Registration_Sys\DBUtility\obj\Debug\ResolveAssemblyReference.cache
+C:\Course_Registration_Sys\DBUtility\obj\Debug\DBUtility.dll
+C:\Course_Registration_Sys\DBUtility\obj\Debug\DBUtility.pdb
+D:\Users\Hank\Documents\Visual Studio 2010\Projects\Course_Registration_Sys\DBUtility\bin\Debug\DBUtility.dll
+D:\Users\Hank\Documents\Visual Studio 2010\Projects\Course_Registration_Sys\DBUtility\bin\Debug\DBUtility.pdb
+D:\Users\Hank\Documents\Visual Studio 2010\Projects\Course_Registration_Sys\DBUtility\obj\Debug\DBUtility.dll
+D:\Users\Hank\Documents\Visual Studio 2010\Projects\Course_Registration_Sys\DBUtility\obj\Debug\DBUtility.pdb
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\Course_Registration_Sys\DBUtility\bin\Debug\DBUtility.dll
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\Course_Registration_Sys\DBUtility\bin\Debug\DBUtility.pdb
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\Course_Registration_Sys\DBUtility\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\Course_Registration_Sys\DBUtility\obj\Debug\DBUtility.dll
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\Course_Registration_Sys\DBUtility\obj\Debug\DBUtility.pdb
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\Course_Registration_Sys_My03 - 副本\DBUtility\bin\Debug\DBUtility.dll
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\Course_Registration_Sys_My03 - 副本\DBUtility\bin\Debug\DBUtility.pdb
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\Course_Registration_Sys_My03 - 副本\DBUtility\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\Course_Registration_Sys_My03 - 副本\DBUtility\obj\Debug\DBUtility.dll
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\Course_Registration_Sys_My03 - 副本\DBUtility\obj\Debug\DBUtility.pdb

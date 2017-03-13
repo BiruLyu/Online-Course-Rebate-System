@@ -1,0 +1,99 @@
+C:\MySystemWeb\MySystemWeb\bin\MySystemWeb.dll
+C:\MySystemWeb\MySystemWeb\bin\MySystemWeb.pdb
+C:\MySystemWeb\MySystemWeb\bin\DAL.dll
+C:\MySystemWeb\MySystemWeb\bin\DBUtility.dll
+C:\MySystemWeb\MySystemWeb\bin\Model.dll
+C:\MySystemWeb\MySystemWeb\bin\DAL.pdb
+C:\MySystemWeb\MySystemWeb\bin\DBUtility.pdb
+C:\MySystemWeb\MySystemWeb\bin\Model.pdb
+C:\MySystemWeb\MySystemWeb\obj\Debug\ResolveAssemblyReference.cache
+C:\MySystemWeb\MySystemWeb\obj\Debug\MySystemWeb.dll
+C:\MySystemWeb\MySystemWeb\obj\Debug\MySystemWeb.pdb
+D:\Users\Hank\Documents\Visual Studio 2010\Projects\MySystemWeb\MySystemWeb\bin\MySystemWeb.dll
+D:\Users\Hank\Documents\Visual Studio 2010\Projects\MySystemWeb\MySystemWeb\bin\MySystemWeb.pdb
+D:\Users\Hank\Documents\Visual Studio 2010\Projects\MySystemWeb\MySystemWeb\bin\DAL.dll
+D:\Users\Hank\Documents\Visual Studio 2010\Projects\MySystemWeb\MySystemWeb\bin\DBUtility.dll
+D:\Users\Hank\Documents\Visual Studio 2010\Projects\MySystemWeb\MySystemWeb\bin\Model.dll
+D:\Users\Hank\Documents\Visual Studio 2010\Projects\MySystemWeb\MySystemWeb\bin\DAL.pdb
+D:\Users\Hank\Documents\Visual Studio 2010\Projects\MySystemWeb\MySystemWeb\bin\DBUtility.pdb
+D:\Users\Hank\Documents\Visual Studio 2010\Projects\MySystemWeb\MySystemWeb\bin\Model.pdb
+D:\Users\Hank\Documents\Visual Studio 2010\Projects\MySystemWeb\MySystemWeb\obj\Debug\MySystemWeb.csprojResolveAssemblyReference.cache
+D:\Users\Hank\Documents\Visual Studio 2010\Projects\MySystemWeb\MySystemWeb\obj\Debug\MySystemWeb.dll
+D:\Users\Hank\Documents\Visual Studio 2010\Projects\MySystemWeb\MySystemWeb\obj\Debug\MySystemWeb.pdb
+D:\Code\MySystemWeb\MySystemWeb\obj\Debug\MySystemWeb.csprojResolveAssemblyReference.cache
+D:\Code\MySystemWeb\MySystemWeb\obj\Debug\MySystemWeb.dll
+D:\Code\MySystemWeb\MySystemWeb\bin\MySystemWeb.dll
+D:\Code\MySystemWeb\MySystemWeb\bin\MySystemWeb.pdb
+D:\Code\MySystemWeb\MySystemWeb\bin\DAL.dll
+D:\Code\MySystemWeb\MySystemWeb\bin\DBUtility.dll
+D:\Code\MySystemWeb\MySystemWeb\bin\Model.dll
+D:\Code\MySystemWeb\MySystemWeb\bin\DAL.pdb
+D:\Code\MySystemWeb\MySystemWeb\bin\DBUtility.pdb
+D:\Code\MySystemWeb\MySystemWeb\bin\Model.pdb
+D:\Code\MySystemWeb\MySystemWeb\obj\Debug\MySystemWeb.pdb
+C:\Users\RubyLyu\Desktop\MySystemWeb\MySystemWeb\bin\MySystemWeb.dll
+C:\Users\RubyLyu\Desktop\MySystemWeb\MySystemWeb\bin\MySystemWeb.pdb
+C:\Users\RubyLyu\Desktop\MySystemWeb\MySystemWeb\bin\DAL.dll
+C:\Users\RubyLyu\Desktop\MySystemWeb\MySystemWeb\bin\DBUtility.dll
+C:\Users\RubyLyu\Desktop\MySystemWeb\MySystemWeb\bin\Model.dll
+C:\Users\RubyLyu\Desktop\MySystemWeb\MySystemWeb\bin\DAL.pdb
+C:\Users\RubyLyu\Desktop\MySystemWeb\MySystemWeb\bin\DBUtility.pdb
+C:\Users\RubyLyu\Desktop\MySystemWeb\MySystemWeb\bin\Model.pdb
+C:\Users\RubyLyu\Desktop\MySystemWeb\MySystemWeb\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\RubyLyu\Desktop\MySystemWeb\MySystemWeb\obj\Debug\MySystemWeb.dll
+C:\Users\RubyLyu\Desktop\MySystemWeb\MySystemWeb\obj\Debug\MySystemWeb.pdb
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\MySystemWeb\MySystemWeb\bin\MySystemWeb.dll
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\MySystemWeb\MySystemWeb\bin\MySystemWeb.pdb
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\MySystemWeb\MySystemWeb\bin\DAL.dll
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\MySystemWeb\MySystemWeb\bin\DBUtility.dll
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\MySystemWeb\MySystemWeb\bin\Model.dll
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\MySystemWeb\MySystemWeb\bin\DAL.pdb
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\MySystemWeb\MySystemWeb\bin\DBUtility.pdb
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\MySystemWeb\MySystemWeb\bin\Model.pdb
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\MySystemWeb\MySystemWeb\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\MySystemWeb\MySystemWeb\obj\Debug\MySystemWeb.dll
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\MySystemWeb\MySystemWeb\obj\Debug\MySystemWeb.pdb
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\新建文件夹 (2)\MySystemWeb\MySystemWeb\bin\MySystemWeb.dll
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\新建文件夹 (2)\MySystemWeb\MySystemWeb\bin\MySystemWeb.pdb
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\新建文件夹 (2)\MySystemWeb\MySystemWeb\bin\DAL.dll
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\新建文件夹 (2)\MySystemWeb\MySystemWeb\bin\DBUtility.dll
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\新建文件夹 (2)\MySystemWeb\MySystemWeb\bin\Model.dll
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\新建文件夹 (2)\MySystemWeb\MySystemWeb\bin\DAL.pdb
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\新建文件夹 (2)\MySystemWeb\MySystemWeb\bin\DBUtility.pdb
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\新建文件夹 (2)\MySystemWeb\MySystemWeb\bin\Model.pdb
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\新建文件夹 (2)\MySystemWeb\MySystemWeb\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\新建文件夹 (2)\MySystemWeb\MySystemWeb\obj\Debug\MySystemWeb.dll
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\新建文件夹 (2)\MySystemWeb\MySystemWeb\obj\Debug\MySystemWeb.pdb
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\MySystemWeb_My03\MySystemWeb\bin\MySystemWeb.dll
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\MySystemWeb_My03\MySystemWeb\bin\MySystemWeb.pdb
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\MySystemWeb_My03\MySystemWeb\bin\DAL.dll
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\MySystemWeb_My03\MySystemWeb\bin\DBUtility.dll
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\MySystemWeb_My03\MySystemWeb\bin\Model.dll
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\MySystemWeb_My03\MySystemWeb\bin\DAL.pdb
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\MySystemWeb_My03\MySystemWeb\bin\DBUtility.pdb
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\MySystemWeb_My03\MySystemWeb\bin\Model.pdb
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\MySystemWeb_My03\MySystemWeb\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\MySystemWeb_My03\MySystemWeb\obj\Debug\MySystemWeb.dll
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\MySystemWeb_My03\MySystemWeb\obj\Debug\MySystemWeb.pdb
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\MySystemWeb_My03 - 副本\MySystemWeb\bin\MySystemWeb.dll
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\MySystemWeb_My03 - 副本\MySystemWeb\bin\MySystemWeb.pdb
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\MySystemWeb_My03 - 副本\MySystemWeb\bin\DAL.dll
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\MySystemWeb_My03 - 副本\MySystemWeb\bin\DBUtility.dll
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\MySystemWeb_My03 - 副本\MySystemWeb\bin\Model.dll
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\MySystemWeb_My03 - 副本\MySystemWeb\bin\DAL.pdb
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\MySystemWeb_My03 - 副本\MySystemWeb\bin\DBUtility.pdb
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\MySystemWeb_My03 - 副本\MySystemWeb\bin\Model.pdb
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\MySystemWeb_My03 - 副本\MySystemWeb\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\MySystemWeb_My03 - 副本\MySystemWeb\obj\Debug\MySystemWeb.dll
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\MySystemWeb_My03 - 副本\MySystemWeb\obj\Debug\MySystemWeb.pdb
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\MySystemWeb_My04\MySystemWeb\bin\DAL.dll
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\MySystemWeb_My04\MySystemWeb\bin\DBUtility.dll
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\MySystemWeb_My04\MySystemWeb\bin\Model.dll
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\MySystemWeb_My04\MySystemWeb\bin\DAL.pdb
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\MySystemWeb_My04\MySystemWeb\bin\DBUtility.pdb
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\MySystemWeb_My04\MySystemWeb\bin\Model.pdb
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\MySystemWeb_My04\MySystemWeb\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\MySystemWeb_My04\MySystemWeb\bin\MySystem.dll
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\MySystemWeb_My04\MySystemWeb\bin\MySystem.pdb
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\MySystemWeb_My04\MySystemWeb\obj\Debug\MySystem.dll
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\MySystemWeb_My04\MySystemWeb\obj\Debug\MySystem.pdb

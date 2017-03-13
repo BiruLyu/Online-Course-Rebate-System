@@ -1,0 +1,29 @@
+C:\Course_Registration_Sys\Model\bin\Debug\Model.dll
+C:\Course_Registration_Sys\Model\bin\Debug\Model.pdb
+C:\Course_Registration_Sys\Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Course_Registration_Sys\Model\obj\Debug\Model.dll
+C:\Course_Registration_Sys\Model\obj\Debug\Model.pdb
+D:\Users\Hank\Documents\Visual Studio 2010\Projects\Course_Registration_Sys\Model\bin\Debug\Model.dll
+D:\Users\Hank\Documents\Visual Studio 2010\Projects\Course_Registration_Sys\Model\bin\Debug\Model.pdb
+D:\Users\Hank\Documents\Visual Studio 2010\Projects\Course_Registration_Sys\Model\obj\Debug\Model.dll
+D:\Users\Hank\Documents\Visual Studio 2010\Projects\Course_Registration_Sys\Model\obj\Debug\Model.pdb
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\Course_Registration_Sys\Model\bin\Debug\Model.dll
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\Course_Registration_Sys\Model\bin\Debug\Model.pdb
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\Course_Registration_Sys\Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\Course_Registration_Sys\Model\obj\Debug\Model.dll
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\Course_Registration_Sys\Model\obj\Debug\Model.pdb
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\Course_Registration_Sys_My03\Model\bin\Debug\Model.dll
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\Course_Registration_Sys_My03\Model\bin\Debug\Model.pdb
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\Course_Registration_Sys_My03\Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\Course_Registration_Sys_My03\Model\obj\Debug\Model.dll
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\Course_Registration_Sys_My03\Model\obj\Debug\Model.pdb
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\Course_Registration_Sys_My03 - 副本\Model\bin\Debug\Model.dll
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\Course_Registration_Sys_My03 - 副本\Model\bin\Debug\Model.pdb
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\Course_Registration_Sys_My03 - 副本\Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\Course_Registration_Sys_My03 - 副本\Model\obj\Debug\Model.dll
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\Course_Registration_Sys_My03 - 副本\Model\obj\Debug\Model.pdb
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\Course_Registration_Sys_My04\Model\bin\Debug\Model.dll
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\Course_Registration_Sys_My04\Model\bin\Debug\Model.pdb
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\Course_Registration_Sys_My04\Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\Course_Registration_Sys_My04\Model\obj\Debug\Model.dll
+C:\Users\RubyLyu\Documents\Visual Studio 2010\Projects\Course_Registration_Sys_My04\Model\obj\Debug\Model.pdb
